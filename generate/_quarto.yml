@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: ../../Dashboard/
+  resources: 
+    - "*.html"
+
+website:
+  title: "HUNTER INSIGHTS DASHBOARD"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - EconUpdate.qmd
+      - housing.qmd
+      - multipliers.qmd
+      
+output:
+  quarto::quarto_html:
+    headings:
+      - "NATIONAL CONDITIONS : Headlines"
+    toc:
+      - "ECONOMIC UPDATE : ECONOMIC"
+    self_contained: true
+    resource_dir: ../../Dashboard/resources/
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+

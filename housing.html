@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.427">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>HUNTER INSIGHTS DASHBOARD – housing</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">HUNTER INSIGHTS DASHBOARD</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./EconUpdate.html" rel="" target="">
+ <span class="menu-text">ECONOMIC UPDATE</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./housing.html" rel="" target="" aria-current="page">
+ <span class="menu-text">HOUSING</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./multipliers.html" rel="" target="">
+ <span class="menu-text">MULTIPLIERS</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#housing" id="toc-housing" class="nav-link active" data-scroll-target="#housing">HOUSING</a></li>
+  <li><a href="#housing-demand" id="toc-housing-demand" class="nav-link" data-scroll-target="#housing-demand">Housing Demand</a>
+  <ul class="collapse">
+  <li><a href="#population-movements" id="toc-population-movements" class="nav-link" data-scroll-target="#population-movements">Population movements</a></li>
+  <li><a href="#rental-demand" id="toc-rental-demand" class="nav-link" data-scroll-target="#rental-demand">Rental demand</a></li>
+  </ul></li>
+  <li><a href="#housing-prices" id="toc-housing-prices" class="nav-link" data-scroll-target="#housing-prices">Housing Prices</a>
+  <ul class="collapse">
+  <li><a href="#housing-sale-prices-price-volume-change-hunter-total" id="toc-housing-sale-prices-price-volume-change-hunter-total" class="nav-link" data-scroll-target="#housing-sale-prices-price-volume-change-hunter-total">Housing sale prices: Price, Volume, Change Hunter-Total</a></li>
+  <li><a href="#rental-prices" id="toc-rental-prices" class="nav-link" data-scroll-target="#rental-prices">Rental prices</a></li>
+  <li><a href="#house-prices-to-annual-rent-ratio" id="toc-house-prices-to-annual-rent-ratio" class="nav-link" data-scroll-target="#house-prices-to-annual-rent-ratio">House prices to Annual Rent ratio</a></li>
+  <li><a href="#housing-expenses---price-movements" id="toc-housing-expenses---price-movements" class="nav-link" data-scroll-target="#housing-expenses---price-movements">Housing expenses - price movements</a></li>
+  <li><a href="#construction-prices" id="toc-construction-prices" class="nav-link" data-scroll-target="#construction-prices">Construction prices</a></li>
+  </ul></li>
+  <li><a href="#housing-supply" id="toc-housing-supply" class="nav-link" data-scroll-target="#housing-supply">Housing Supply</a>
+  <ul class="collapse">
+  <li><a href="#building-approvals" id="toc-building-approvals" class="nav-link" data-scroll-target="#building-approvals">Building approvals</a></li>
+  </ul></li>
+  <li><a href="#social-issues" id="toc-social-issues" class="nav-link" data-scroll-target="#social-issues">Social issues</a>
+  <ul class="collapse">
+  <li><a href="#homelessness" id="toc-homelessness" class="nav-link" data-scroll-target="#homelessness">Homelessness</a></li>
+  <li><a href="#homelessness-by-lga" id="toc-homelessness-by-lga" class="nav-link" data-scroll-target="#homelessness-by-lga">Homelessness by LGA</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<style>
+    h3, h4, h5, h6 {
+        color: darkblue;
+        text-align: center;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333333;
+      margin: 0;
+      text-align: justify;
+    }
+    h1 {
+      padding-top: 20px;
+      border-top: 2px solid #444;
+      color: darkblue;
+      text-align: center;
+    }
+    h2 {
+      padding-top: 40px;
+      border-bottom: 2px solid #444;
+      color: darkblue;
+      text-align: center;
+    }
+    /* Hide all figure divs by default */
+    .figure {
+    display: none;
+    }
+    /* Button Container */
+    .button-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Individual Buttons */
+    .button {
+        background-color: #f2f2f2;
+        font-size: 14px;
+        border: 0.5px solid white;
+        margin: 5px; /* Add some spacing between buttons */
+        padding: 10px 20px; /* Adjust padding for better button size */
+        cursor: pointer; /* Add a pointer cursor on hover */
+    }
+    /* Change background color on hover */
+    .button:hover {
+        background-color: #dddddd;
+    }
+
+    /* Change text color */
+    .button {
+        color: #333333;
+    }
+
+</style>
+<section id="housing" class="level1">
+<h1>HOUSING</h1>
+<p>The Institute for Regional Futures’ Insights Dashboard tracks socio-economic conditions in the Hunter. The dashboard is based on the Hunter Research Foundation Centre’s databank collected over 60 years, the most comprehensive collection of any region in Australia. This dashboard aims to continue making data and insights about the region available to government, industry, and the community.</p>
+<p>This Insight Series focuses on housing related issues for the region. The focus here is on quantitative insights. It is recommended to place any insights in the appropriate social context.</p>
+<p>Unless otherwise specified, the region refers to the Hunter Valley region, including the Mid-Coast LGA*.</p>
+<p>The dashboard is a snapshot of the total data collected by the Institute for Regional Futures. For more information, please contact irf@newcastle.edu.au.</p>
+</section>
+<section id="housing-demand" class="level1">
+<h1>Housing Demand</h1>
+<section id="population-movements" class="level2">
+<h2 class="anchored" data-anchor-id="population-movements">Population movements</h2>
+<p>Australia is a highly mobile population, and the Hunter region is no exception. Internal migration (moving house) amounts to 40% of the Hunter population in the most recent 5 year period.</p>
+<p>The figure below shows the percentage of the population who have moved in the last 1 or 5 years based on information collected in the census.</p>
+<p>Whilst the 1 year change is fairly flat in 2021 compared to earlier years for SA4 level and many LGAs, the 5-year change shows a strong increase - both pre-COVID (2011-2016) and through COVID (2016-2021). At the LGA level, there are expected patterns, e.g.&nbsp;for Newcastle LGA, but some strong increases also in mining communities, such as out of Singleton and Cessnock.</p>
+<iframe src="../Dashboard_Working/html_figs/migration.html" width="850" height="800" style="display: block; margin: 0 auto;">
+</iframe>
+</section>
+<section id="rental-demand" class="level2">
+<h2 class="anchored" data-anchor-id="rental-demand">Rental demand</h2>
+<p>As a region, we have lower than Australian or NSW rental population. The data below shows the percentage of the population who are renting. Whilst most LGAs in the Hunter are lower than State of National average, there is a strong growth in rental percentage at the SA4 level. Newcastle, Cessnock and Maitland have been driving these rent growths, tempered by other regional LGAs, which are seeing a decline in rental percentage.</p>
+<iframe src="../Dashboard_Working/html_figs/Percentage_Rent.html" width="850" height="800">
+</iframe>
+</section>
+</section>
+<section id="housing-prices" class="level1">
+<h1>Housing Prices</h1>
+<section id="housing-sale-prices-price-volume-change-hunter-total" class="level2">
+<h2 class="anchored" data-anchor-id="housing-sale-prices-price-volume-change-hunter-total">Housing sale prices: Price, Volume, Change Hunter-Total</h2>
+<p>The data in this figure shows the median house price (excluding outliers) for the total Hunter region based on NSW Valuer General data (data collected as part of sales process). The purple line shows the monthly median, whilst the blue line is smoothed data based on a 6 month rolling average of the monthly medians. Data in the last 3 months (beyond the dotted green line) are unreliable due to unfulfilled settlements. In the second sub-plot, the volume of sales is plotted, with green bars corresponding to periods of price increases, and red bars corresponding to periods of price decreases. This quarterly change (% change in prices) is plotted in the third sub-plot. Finally the inter-quartile distribution is plotted in the fourth subplot.</p>
+<iframe src="../Dashboard_Working/html_figs/houseprices_triple_Hunter-Total.html" width="1250" height="950">
+</iframe>
+</section>
+<section id="rental-prices" class="level2">
+<h2 class="anchored" data-anchor-id="rental-prices">Rental prices</h2>
+<p>This figure shows the tracking of rental prices at the LGA level. Published by the NSW Department of Family and Community Services.</p>
+<p>Rental prices may have just started to see the peak in price rises that have been evident in house sales for some time. The acceleration since 2021 is still high, with most LGAs seeing faster rises than Sydney or NSW. The data below is for the median weekly rent for 3-bedroom stand-alone houses. Rental prices have tempered some of their increases: 12 months to March showed increases in the range of 14-26% across LGAs in the region, whilst the most recent quarter (to June 2023) has seen decreases in some LGAs to give a 12 months to June result of 1-6% increase. Newcastle and Port Stephens have seen the highest rises over this time.</p>
+<p style="display: flex; justify-content: center;">
+    </p><p style="flex: 1; display: flex; justify-content: center;">
+    <button id="button11" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot1('../Dashboard_Working/html_figs/rentalprices_nswfacs.html')">Values</button>
+    <button id="button12" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot1('../Dashboard_Working/html_figs/rentalprices_nswfacs_indexed.html')">Indexed</button>
+    </p>
+<p></p>
+<iframe id="plotFrame1" src="../Dashboard_Working/html_figs/rentalprices_nswfacs_indexed.html" width="800" height="600"></iframe>
+<script type="text/javascript">
+    function loadPlot1(file) {
+        var plotFrame = document.getElementById("plotFrame1");
+        plotFrame.src = file;
+    }
+</script>
+<p><span style="font-size: small;">Data source: NSW FACS</span></p>
+<iframe src="../Dashboard_Working/html_figs/rentalprices_last_quart.html" width="800" height="600">
+</iframe>
+<p><span style="font-size: small;">Data source: NSW FACS</span></p>
+</section>
+<section id="house-prices-to-annual-rent-ratio" class="level2">
+<h2 class="anchored" data-anchor-id="house-prices-to-annual-rent-ratio">House prices to Annual Rent ratio</h2>
+<p>This figure shows the ratio of house price for a median 3 bedroom house to the rental price. It is an indicator of affordability of rents vs purchases, but also used by investors to determine whether returns on investments are high. Internationally, a value of “20” is a common baseline, and Australia tracks well above this number (reflecting the relatively high price of housing purchases).</p>
+<iframe src="../Dashboard_Working/html_figs/sales_rents_ratio.html" width="800" height="580">
+</iframe>
+</section>
+<section id="housing-expenses---price-movements" class="level2">
+<h2 class="anchored" data-anchor-id="housing-expenses---price-movements">Housing expenses - price movements</h2>
+<p>The ABS publish specific price data on housing related expenses to give better insights (at the national level) about the price movements of purchases, rents and other expenses. Whilst a lot of focus has been put on electricity costs in the recent period, this is only partially justified based on movements in the last 12 months - but comes from a low point in electricity prices.</p>
+<iframe src="../Dashboard_Working/html_figs/cpi_housing.html" width="800" height="600">
+</iframe>
+</section>
+<section id="construction-prices" class="level2">
+<h2 class="anchored" data-anchor-id="construction-prices">Construction prices</h2>
+<p>Another major concern (both for private and public housing) has been the cost of construction, especially due to policy enacted in response to the COVID shutdown that saw a boom in construction activity. That coupled with difficulties in supply chains and transportation saw construction related prices sky-rocket. Now it appears that construction prices have peaked, but well above the previous level.</p>
+<iframe src="../Dashboard_Working/html_figs/construction_ppi.html" width="800" height="600">
+</iframe>
+</section>
+</section>
+<section id="housing-supply" class="level1">
+<h1>Housing Supply</h1>
+<section id="building-approvals" class="level2">
+<h2 class="anchored" data-anchor-id="building-approvals">Building approvals</h2>
+<p>This shows the number of building approvals by type since 2016 for the whole of the Hunter. <iframe src="../Dashboard_Working/html_figs/building_type_hunter.html" width="800" height="600"></iframe></p>
+<p>The same in a cumulative figure (building approvals by type since 2016 for the whole of the Hunter). Clearly the detached house is the main focus of development in the Hunter <iframe src="../Dashboard_Working/html_figs/building_type_hunter_cumul.html" width="800" height="600"></iframe></p>
+
+<!-- Row 1: Housing Type Buttons -->
+<p style="display: flex; justify-content: center;">
+    </p><p style="flex: 1; display: flex; justify-content: center;">
+        <button id="button21" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot('Houses', false)">Houses</button>
+        <button id="button22" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot('Apartments', false)">Apartments</button>
+        <button id="button23" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot('Semi_detached', false)">Semi-detached</button>
+        <button id="button24" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot('Other_Res', false)">Other Residential</button>
+    </p>
+<p></p>
+
+<!-- Row 2: Cumulative/Number Buttons -->
+<p style="display: flex; justify-content: center;">
+    </p><p style="flex: 1; display: flex; justify-content: center;">
+        <button id="button24" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot(currentType, true)">Cumulative</button>
+        <button id="button25" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot(currentType, false)">Number</button>
+    </p>
+<p></p>
+
+<!-- Figure -->
+<iframe id="plotFrame2" src="../Dashboard_Working/html_figs/BuildApprov_Map_Anim_HousesSA2.html" width="800" height="600"></iframe>
+
+<script type="text/javascript">
+    let currentType = 'Houses'; // Default housing type
+
+    function loadPlot(figureType, isCumulative) {
+        var plotFrame = document.getElementById("plotFrame2");
+        var figureFile = `../Dashboard_Working/html_figs/BuildApprov_Map_Anim_${figureType}`;
+
+        // Determine the file extension based on the isCumulative parameter
+        if (isCumulative) {
+            figureFile += `_cumulSA2.html`;
+        } else {
+            figureFile += `SA2.html`;
+        }
+
+        // Set the source of the iframe to load the selected figure
+        plotFrame.src = figureFile;
+        currentType = figureType; // Update the current housing type
+    }
+</script>
+</section>
+</section>
+<section id="social-issues" class="level1">
+<h1>Social issues</h1>
+<ul>
+<li>Sprawl</li>
+<li>Commute time/distance</li>
+<li>Homelessness</li>
+</ul>
+<section id="homelessness" class="level2">
+<h2 class="anchored" data-anchor-id="homelessness">Homelessness</h2>
+<iframe src="../Dashboard_Working/html_figs/AllHomelessAusNswHunter.html" width="800" height="600">
+</iframe>
+</section>
+<section id="homelessness-by-lga" class="level2">
+<h2 class="anchored" data-anchor-id="homelessness-by-lga">Homelessness by LGA</h2>
+<!-- Row 1: Category Buttons -->
+<div class="button-container">
+<button class="button" id="button1" onclick="loadFigure(1)">
+<p>People living in improvised dwellings, tents, or sleeping out</p>
+</button>
+<button class="button" id="button2" onclick="loadFigure(2)">
+<p>People in supported accommodation for the homeless</p>
+</button>
+<button class="button" id="button3" onclick="loadFigure(3)">
+<p>People staying temporarily with other households(e)</p>
+</button>
+<button class="button" id="button4" onclick="loadFigure(4)">
+<p>People living in boarding houses</p>
+</button>
+<button class="button" id="button5" onclick="loadFigure(5)">
+<p>People in other temporary lodgings</p>
+</button>
+<button class="button" id="button6" onclick="loadFigure(6)">
+<p>People living in ‘severely’ crowded dwellings</p>
+</button>
+</div>
+<!-- Row 2: Category Buttons -->
+<div class="button-container">
+<button class="button" id="button7" onclick="loadFigure(7)">
+<p>All homeless persons</p>
+</button>
+<button class="button" id="button8" onclick="loadFigure(8)">
+<p>People living in other crowded dwellings</p>
+</button>
+<button class="button" id="button9" onclick="loadFigure(9)">
+<p>People in other improvised dwellings</p>
+</button>
+<button class="button" id="button10" onclick="loadFigure(10)">
+<p>People who are marginally housed in caravan parks</p>
+</button>
+<button class="button" id="button11" onclick="loadFigure(11)">
+<p>People living in severely and other crowded dwellings</p>
+</button>
+</div>
+<!-- Figure -->
+<iframe id="plotFrame" src="../Dashboard_Working/html_figs/homelessness1.html" width="800" height="600">
+</iframe>
+<script type="text/javascript">
+    let currentCategory = 1; // Default category
+
+    function loadFigure(category) {
+        var plotFrame = document.getElementById("plotFrame");
+        var figureFile = `../Dashboard_Working/html_figs/homelessness${category}.html`;
+
+        // Set the source of the iframe to load the selected figure
+        plotFrame.src = figureFile;
+        currentCategory = category;
+    }
+</script>
+<hr>
+<p>For more detail on the Hunter Insights Dashboard, please <a href="IRF@newcastle.edu.au">contact IRF</a></p>
+<hr>
+<p>* The data presented here for the Hunter Region includes the local government areas (LGAs) of Cessnock, Dungog, Lake Macquarie, Maitland, Mid-Coast, Muswellbrook, Newcastle, Port Stephens, Singleton and Upper Hunter. However, the ABS collects and reports data by Statistical Area which does not fully align with this definition. The Statistical Area Level 4 (SA4) classification, commonly used for reporting economic statistics includes the above LGAs in two SA4 areas comprising the Hunter Valley region, but classifies the Mid-Coast LGA in the Mid North Coast SA4.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
