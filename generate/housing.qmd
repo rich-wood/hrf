@@ -56,13 +56,13 @@
 ```
 # HOUSING
 
-The Institute for Regional Futures’ Insights Dashboard tracks socio-economic conditions in the Hunter. The dashboard is based on the Hunter Research Foundation Centre’s databank collected over 60 years, the most comprehensive collection of any region in Australia. This dashboard aims  to continue making data and insights about the region available to government, industry, and the community. 
+The Institute for Regional Futures' Insights Dashboard tracks socio-economic conditions in the Hunter. The dashboard is based on the Hunter Research Foundation Centre's databank collected over 60 years, the most comprehensive collection of any region in Australia. This dashboard aims to continue making data and insights about the region available to government, industry, and the community.
 
 This Insight Series focuses on housing related issues for the region. The focus here is on quantitative insights. It is recommended to place any insights in the appropriate social context.
 
 Unless otherwise specified, the region refers to the Hunter Valley region, including the Mid-Coast LGA\*.
 
-The dashboard is a snapshot of the total data collected by the Institute for Regional Futures. For more information, please contact irf@newcastle.edu.au.
+The dashboard is a snapshot of the total data collected by the Institute for Regional Futures. For more information, please contact irf\@newcastle.edu.au.
 
 # Housing Demand
 
@@ -74,7 +74,7 @@ The figure below shows the percentage of the population who have moved in the la
 
 Whilst the 1 year change is fairly flat in 2021 compared to earlier years for SA4 level and many LGAs, the 5-year change shows a strong increase - both pre-COVID (2011-2016) and through COVID (2016-2021). At the LGA level, there are expected patterns, e.g. for Newcastle LGA, but some strong increases also in mining communities, such as out of Singleton and Cessnock.
 
-<iframe src="../Dashboard_Working/html_figs/migration.html" width="850" height="800" style="display: block; margin: 0 auto;">
+<iframe src="html_figs/migration.html" width="850" height="800" style="display: block; margin: 0 auto;">
 
 </iframe>
 
@@ -82,7 +82,7 @@ Whilst the 1 year change is fairly flat in 2021 compared to earlier years for SA
 
 As a region, we have lower than Australian or NSW rental population. The data below shows the percentage of the population who are renting. Whilst most LGAs in the Hunter are lower than State of National average, there is a strong growth in rental percentage at the SA4 level. Newcastle, Cessnock and Maitland have been driving these rent growths, tempered by other regional LGAs, which are seeing a decline in rental percentage.
 
-<iframe src="../Dashboard_Working/html_figs/Percentage_Rent.html" width="850" height="800">
+<iframe src="html_figs/Percentage_Rent.html" width="850" height="800">
 
 </iframe>
 
@@ -92,7 +92,7 @@ As a region, we have lower than Australian or NSW rental population. The data be
 
 The data in this figure shows the median house price (excluding outliers) for the total Hunter region based on NSW Valuer General data (data collected as part of sales process). The purple line shows the monthly median, whilst the blue line is smoothed data based on a 6 month rolling average of the monthly medians. Data in the last 3 months (beyond the dotted green line) are unreliable due to unfulfilled settlements. In the second sub-plot, the volume of sales is plotted, with green bars corresponding to periods of price increases, and red bars corresponding to periods of price decreases. This quarterly change (% change in prices) is plotted in the third sub-plot. Finally the inter-quartile distribution is plotted in the fourth subplot.
 
-<iframe src="../Dashboard_Working/html_figs/houseprices_triple_Hunter-Total.html" width="1250" height="950">
+<iframe src="html_figs/houseprices_triple_Hunter-Total.html" width="1250" height="950">
 
 </iframe>
 
@@ -105,11 +105,11 @@ Rental prices may have just started to see the peak in price rises that have bee
 ```{=html}
 <p style="display: flex; justify-content: center;">
     <p style="flex: 1; display: flex; justify-content: center;">
-    <button id="button11" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot1('../Dashboard_Working/html_figs/rentalprices_nswfacs.html')">Values</button>
-    <button id="button12" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot1('../Dashboard_Working/html_figs/rentalprices_nswfacs_indexed.html')">Indexed</button>
+    <button id="button11" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot1('html_figs/rentalprices_nswfacs.html')">Values</button>
+    <button id="button12" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot1('html_figs/rentalprices_nswfacs_indexed.html')">Indexed</button>
     </p>
 </p>
-<iframe id="plotFrame1" src="../Dashboard_Working/html_figs/rentalprices_nswfacs_indexed.html" width="800" height="600"></iframe>
+<iframe id="plotFrame1" src="html_figs/rentalprices_nswfacs_indexed.html" width="800" height="600"></iframe>
 <script type="text/javascript">
     function loadPlot1(file) {
         var plotFrame = document.getElementById("plotFrame1");
@@ -119,7 +119,7 @@ Rental prices may have just started to see the peak in price rises that have bee
 ```
 [Data source: NSW FACS]{style="font-size: small;"}
 
-<iframe src="../Dashboard_Working/html_figs/rentalprices_last_quart.html" width="800" height="600">
+<iframe src="html_figs/rentalprices_last_quart.html" width="800" height="600">
 
 </iframe>
 
@@ -129,7 +129,7 @@ Rental prices may have just started to see the peak in price rises that have bee
 
 This figure shows the ratio of house price for a median 3 bedroom house to the rental price. It is an indicator of affordability of rents vs purchases, but also used by investors to determine whether returns on investments are high. Internationally, a value of "20" is a common baseline, and Australia tracks well above this number (reflecting the relatively high price of housing purchases).
 
-<iframe src="../Dashboard_Working/html_figs/sales_rents_ratio.html" width="800" height="580">
+<iframe src="html_figs/sales_rents_ratio.html" width="800" height="580">
 
 </iframe>
 
@@ -137,7 +137,7 @@ This figure shows the ratio of house price for a median 3 bedroom house to the r
 
 The ABS publish specific price data on housing related expenses to give better insights (at the national level) about the price movements of purchases, rents and other expenses. Whilst a lot of focus has been put on electricity costs in the recent period, this is only partially justified based on movements in the last 12 months - but comes from a low point in electricity prices.
 
-<iframe src="../Dashboard_Working/html_figs/cpi_housing.html" width="800" height="600">
+<iframe src="html_figs/cpi_housing.html" width="800" height="600">
 
 </iframe>
 
@@ -145,19 +145,17 @@ The ABS publish specific price data on housing related expenses to give better i
 
 Another major concern (both for private and public housing) has been the cost of construction, especially due to policy enacted in response to the COVID shutdown that saw a boom in construction activity. That coupled with difficulties in supply chains and transportation saw construction related prices sky-rocket. Now it appears that construction prices have peaked, but well above the previous level.
 
-<iframe src="../Dashboard_Working/html_figs/construction_ppi.html" width="800" height="600">
+<iframe src="html_figs/construction_ppi.html" width="800" height="600">
 
 </iframe>
 
-
 # Housing Supply
-
 
 ## Building approvals
 
-This shows the number of building approvals by type since 2016 for the whole of the Hunter. <iframe src=../Dashboard_Working/html_figs/building_type_hunter.html width="800" height="600"></iframe>
+This shows the number of building approvals by type since 2016 for the whole of the Hunter. <iframe src=html_figs/building_type_hunter.html width="800" height="600"></iframe>
 
-The same in a cumulative figure (building approvals by type since 2016 for the whole of the Hunter). Clearly the detached house is the main focus of development in the Hunter <iframe src=../Dashboard_Working/html_figs/building_type_hunter_cumul.html width="800" height="600"></iframe>
+The same in a cumulative figure (building approvals by type since 2016 for the whole of the Hunter). Clearly the detached house is the main focus of development in the Hunter <iframe src=html_figs/building_type_hunter_cumul.html width="800" height="600"></iframe>
 
 ```{=html}
 
@@ -180,14 +178,14 @@ The same in a cumulative figure (building approvals by type since 2016 for the w
 </p>
 
 <!-- Figure -->
-<iframe id="plotFrame2" src="../Dashboard_Working/html_figs/BuildApprov_Map_Anim_HousesSA2.html" width="800" height="600"></iframe>
+<iframe id="plotFrame2" src="html_figs/BuildApprov_Map_Anim_HousesSA2.html" width="800" height="600"></iframe>
 
 <script type="text/javascript">
     let currentType = 'Houses'; // Default housing type
 
     function loadPlot(figureType, isCumulative) {
         var plotFrame = document.getElementById("plotFrame2");
-        var figureFile = `../Dashboard_Working/html_figs/BuildApprov_Map_Anim_${figureType}`;
+        var figureFile = `html_figs/BuildApprov_Map_Anim_${figureType}`;
 
         // Determine the file extension based on the isCumulative parameter
         if (isCumulative) {
@@ -210,7 +208,7 @@ The same in a cumulative figure (building approvals by type since 2016 for the w
 
 ## Homelessness
 
-<iframe src="../Dashboard_Working/html_figs/AllHomelessAusNswHunter.html" width="800" height="600">
+<iframe src="html_figs/AllHomelessAusNswHunter.html" width="800" height="600">
 
 </iframe>
 
@@ -292,7 +290,7 @@ People living in severely and other crowded dwellings
 
 <!-- Figure -->
 
-<iframe id="plotFrame" src="../Dashboard_Working/html_figs/homelessness1.html" width="800" height="600">
+<iframe id="plotFrame" src="html_figs/homelessness1.html" width="800" height="600">
 
 </iframe>
 
@@ -302,7 +300,7 @@ People living in severely and other crowded dwellings
 
     function loadFigure(category) {
         var plotFrame = document.getElementById("plotFrame");
-        var figureFile = `../Dashboard_Working/html_figs/homelessness${category}.html`;
+        var figureFile = `html_figs/homelessness${category}.html`;
 
         // Set the source of the iframe to load the selected figure
         plotFrame.src = figureFile;
@@ -311,9 +309,10 @@ People living in severely and other crowded dwellings
 </script>
 ```
 
----
+------------------------------------------------------------------------
 
 For more detail on the Hunter Insights Dashboard, please [contact IRF](IRF@newcastle.edu.au)
 
----
+------------------------------------------------------------------------
+
 \* The data presented here for the Hunter Region includes the local government areas (LGAs) of Cessnock, Dungog, Lake Macquarie, Maitland, Mid-Coast, Muswellbrook, Newcastle, Port Stephens, Singleton and Upper Hunter. However, the ABS collects and reports data by Statistical Area which does not fully align with this definition. The Statistical Area Level 4 (SA4) classification, commonly used for reporting economic statistics includes the above LGAs in two SA4 areas comprising the Hunter Valley region, but classifies the Mid-Coast LGA in the Mid North Coast SA4.

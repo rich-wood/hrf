@@ -36,8 +36,8 @@ This update is the first of the Institute's new format Hunter Research Foundatio
 The dashboard is a snapshot of the total data collected by the Institute for Regional Futures. For more information, please contact [irf\@newcastle.edu.au](irf@newcastle.edu.au).
 
 ::: {style="text-align: center; display: flex; flex-wrap: wrap; justify-content: center; align-items: center;"}
-| <img src="../Dashboard_Working/infographics/Today_GDP.svg" alt="GDP" style="max-width:270PX; height:240PX;"/> <img src="../Dashboard_Working/infographics/Today_Trade_2.svg" alt="Trade" style="max-width:270PX; height:240PX;"/> <img src="../Dashboard_Working/infographics/Today_CPI_Red.svg" alt="CPI" style="max-width:270PX; height:240PX;"/>
-| <img src="../Dashboard_Working/infographics/Today_Employment_Blue.svg" alt="Employment" style="max-width:270PX; height:240PX;"/> <img src="../Dashboard_Working/infographics/Today_Unemployment_Red.svg" alt="Unemployment" style="max-width:270PX; height:240PX;"/> <img src="../Dashboard_Working/infographics/Today_Housing_Blue.svg" alt="House Prices" style="max-width:270PX; height:240PX;"/>
+| <img src="html_figs/Today_GDP.svg" alt="GDP" style="max-width:270PX; height:240PX;"/> <img src="html_figs/Today_Trade_2.svg" alt="Trade" style="max-width:270PX; height:240PX;"/> <img src="html_figs/Today_CPI_Red.svg" alt="CPI" style="max-width:270PX; height:240PX;"/>
+| <img src="html_figs/Today_Employment_Blue.svg" alt="Employment" style="max-width:270PX; height:240PX;"/> <img src="html_figs/Today_Unemployment_Red.svg" alt="Unemployment" style="max-width:270PX; height:240PX;"/> <img src="html_figs/Today_Housing_Blue.svg" alt="House Prices" style="max-width:270PX; height:240PX;"/>
 :::
 
 # HEADLINES
@@ -62,7 +62,7 @@ The dashboard is a snapshot of the total data collected by the Institute for Reg
 
 **Latest -** The latest data points show a 0.4% growth for each of the first two quarters of 2023, down from a 0.7% growth for the last quarter of 2022.
 
-<iframe src="../Dashboard_Working/html_figs/gdp_annual.html" width="800" height="600">
+<iframe src="html_figs/gdp_annual.html" width="800" height="600">
 
 </iframe>
 
@@ -76,7 +76,7 @@ At the national level, ABS data shows a quarterly rise in GDP of 0.4% for the se
 
 Prices of traded commodities, especially rural goods, liquified natural gas and coal, have been falling is having a large impact on profits for the mining industry. Domestic prices have been rising strongly, mainly due to a tight labour market, fuelling price increases in services. (see [ABS for more info](https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/latest-release))
 
-<iframe src="../Dashboard_Working/html_figs/gdp_quarter.html" width="800" height="600">
+<iframe src="html_figs/gdp_quarter.html" width="800" height="600">
 
 </iframe>
 
@@ -88,7 +88,7 @@ The [NAB Group Economics](https://business.nab.com.au/author/nab-group-economic/
 -   Business conditions are measuring above long-run averages. Capacity utilisation was above 85%, reflecting a tight balance between supply and demand.
 -   Business confidence measures are more mixed. While it has recovered from negative values it remains below the long-run average. Of relevance for the Hunter is the marked change in business confidence in the mining sector from high positive values earlier in the year to negative values in the last update. Manufacturing, construction, transport, and utilities sectors are still in positive territory.- The retail sector is the largest negative weight on business confidence, and part of the result is due to clearing of backlogs. This result also applied to sales and forward orders.
 
-<iframe src="../Dashboard_Working/html_figs/NAB_business.html" width="800" height="600">
+<iframe src="html_figs/NAB_business.html" width="800" height="600">
 
 </iframe>
 
@@ -114,17 +114,17 @@ Employment grew by 7.7% over the year to July, well above jobs growth for NSW wh
 
 At the state level, part-time growth was much more moderated, dropping from an annual growth of 12% at the end of 2022, to a growth of 0.5% for the 12 months to July 2023. Although GDP growth has moderated nationally and internationally, employment has continued to expand. However, recent data on hiring intentions and vacancies suggests that future job growth may slow.
 
-<iframe src="../Dashboard_Working/html_figs/employment_hunter_monthly.html" width="800" height="600">
+<iframe src="html_figs/employment_hunter_monthly.html" width="800" height="600">
 
 </iframe>
 
-[Data source: ABS Labour Force, Australia, Detailed. [Data in tabular format available here.](../Dashboard_Working/html_figs/employment_hunter_monthly_tab.html)]{style="font-size: small;"}
+[Data source: ABS Labour Force, Australia, Detailed. [Data in tabular format available here.](html_figs/employment_hunter_monthly_tab.html)]{style="font-size: small;"}
 
 ## Unemployment {#unemployment}
 
 The Hunter Valley's unemployment rate has continued to plunge since the highs reached in COVID. The 3-month moving average shows unemployment is now at 2.4% as of July 2023, down from 4.5% in July 2022. This figure is slightly less than the NSW-wide rate of 3.0% in July 2023, which has also only slightly declined in the last twelve months (down from 3.9%). The decline in the unemployment rate is partly driven by the increasing labour force participation rates over the period. That is, more people are seeking employment. The region's youth unemployment rate has also seen record lows, with the unemployment rate for July 2023 at 2.9%. This figure is now below the NSW-wide rate of 3.7%. Historically, a key challenge for policymakers is to achieve a low rate of unemployment without fuelling excessive increases in wages growth and inflation. Economists call the lowest rate of unemployment that achieves this the 'non-accelerating inflation rate of unemployment' or [NAIRU](https://www.rba.gov.au/speeches/2023/sp-dg-2023-06-20.html). Current estimates are that this rate is roughly 5% in Australia. These values are expressed with a 3-month moving average.
 
-<iframe src="../Dashboard_Working/html_figs/unemployment_hunter_monthly.html" width="800" height="600">
+<iframe src="html_figs/unemployment_hunter_monthly.html" width="800" height="600">
 
 </iframe>
 
@@ -132,7 +132,7 @@ The Hunter Valley's unemployment rate has continued to plunge since the highs re
 
 The last 12 months of data show that the Hunter is trending towards significantly lower levels of unemployment than the NSW average. The Upper Hunter has seen large decreases in unemployment, higher than the Hunter average.
 
-<iframe src="../Dashboard_Working/html_figs/unemployment_hunter_bar12months.html" width="800" height="600">
+<iframe src="html_figs/unemployment_hunter_bar12months.html" width="800" height="600">
 
 </iframe>
 
@@ -144,7 +144,7 @@ Long-term trends in employment show strong growth in service sector jobs, especi
 
 Although short-term fluctuations occur, the long-term trend indicates a significant transformation in the region's employment landscape. The below employment data is measured in full-time equivalents (FTE). FTE represent the combined workload of full-time and part-time employees as if they were all working full-time.
 
-<iframe src="../Dashboard_Working/html_figs/employment_hunter_industry_change.html" width="800" height="600">
+<iframe src="html_figs/employment_hunter_industry_change.html" width="800" height="600">
 
 </iframe>
 
@@ -152,7 +152,7 @@ Although short-term fluctuations occur, the long-term trend indicates a signific
 
 The last 3 months of data (Feb - May 2023) present a mixed picture, with earlier growths in mining and manufacturing jobs now showing declines. Professional and financial services saw the largest declines in the service sector whereas public services, health and education saw large increases. Interestingly, given the national economic data on consumption, the region's retail trade and hospitality sectors saw large increases in employment of circa 3% in a quarter.
 
-<iframe src="../Dashboard_Working/html_figs/employment_hunter_industry_change_3month.html" width="800" height="600">
+<iframe src="html_figs/employment_hunter_industry_change_3month.html" width="800" height="600">
 
 </iframe>
 
@@ -163,11 +163,11 @@ The last 3 months of data (Feb - May 2023) present a mixed picture, with earlier
 ```{=html}
 <p style="display: flex; justify-content: center;">
     <p style="flex: 1; display: flex; justify-content: center;">
-    <button id="button11" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot1('../Dashboard_Working/html_figs/houseprices_facs.html')">Values</button>
-    <button id="button12" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot1('../Dashboard_Working/html_figs/houseprices_facs_indexed.html')">Indexed</button>
+    <button id="button11" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot1('html_figs/houseprices_facs.html')">Values</button>
+    <button id="button12" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot1('html_figs/houseprices_facs_indexed.html')">Indexed</button>
     </p>
 </p>
-<iframe id="plotFrame1" src="../Dashboard_Working/html_figs/houseprices_facs_indexed.html" width="800" height="600"></iframe>
+<iframe id="plotFrame1" src="html_figs/houseprices_facs_indexed.html" width="800" height="600"></iframe>
 <script type="text/javascript">
     function loadPlot1(file) {
         var plotFrame = document.getElementById("plotFrame1");
@@ -184,10 +184,9 @@ The fall contrasts sharply with the region's yearly growth rate of over 20% per 
 Among Hunter LGAs, the Upper Hunter showed the largest price increases of 13% in the last 12 months. Muswellbrook is the only LGA that is not yet recording declines in house prices over the preceding 24 months. Prices here have seen growth of 27% in 2011 and 14% in 2022.
 
 ```{=html}
-<iframe src="../Dashboard_Working/html_figs/house_prices_last_quart_facs.html" width="800" height="600">
+<iframe src="html_figs/house_prices_last_quart_facs.html" width="800" height="600">
 </iframe>
 ```
-
 [Data source: NSW FACS]{style="font-size: small;"}
 
 ## Rental Prices {#rental-prices}
@@ -200,13 +199,13 @@ The data below is for the median weekly rent for 3-bedroom stand-alone houses. R
 
 <p style="flex: 1; display: flex; justify-content: center;">
 
-<button id="button21" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot2(&#39;../Dashboard_Working/html_figs/rentalprices_nswfacs.html&#39;)">
+<button id="button21" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot2(&#39;html_figs/rentalprices_nswfacs.html&#39;)">
 
 Values
 
 </button>
 
-<button id="button22" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot2(&#39;../Dashboard_Working/html_figs/rentalprices_nswfacs_indexed.html&#39;)">
+<button id="button22" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot2(&#39;html_figs/rentalprices_nswfacs_indexed.html&#39;)">
 
 Indexed
 
@@ -216,7 +215,7 @@ Indexed
 
 </p>
 
-<iframe id="plotFrame2" src="../Dashboard_Working/html_figs/rentalprices_nswfacs_indexed.html" width="800" height="600">
+<iframe id="plotFrame2" src="html_figs/rentalprices_nswfacs_indexed.html" width="800" height="600">
 
 </iframe>
 
@@ -234,14 +233,14 @@ According to the last period of data, the Hunter is still experiencing price inc
 
 The NSW median price increase was 0%, whilst Greater Sydney had an increase of around 2% over the 6 months. However, rent increases have abated. In the previous period (to March 2023), median rent increases were 13% in the Upper Hunter, 6% in Port Stephens, 5% in Maitland and 4% in Newcastle and Cessnock.
 
-<iframe src="../Dashboard_Working/html_figs/rentalprices_last_quart.html" width="800" height="600">
+<iframe src="html_figs/rentalprices_last_quart.html" width="800" height="600">
 
 </iframe>
 
-                                                                                  
----
+------------------------------------------------------------------------
 
 For more detail on the Hunter Insights Dashboard, please [contact IRF](IRF@newcastle.edu.au)
 
----
+------------------------------------------------------------------------
+
 \* The data presented here for the Hunter Region includes the local government areas (LGAs) of Cessnock, Dungog, Lake Macquarie, Maitland, Mid-Coast, Muswellbrook, Newcastle, Port Stephens, Singleton and Upper Hunter. However, the ABS collects and reports data by Statistical Area which does not fully align with this definition. The Statistical Area Level 4 (SA4) classification, commonly used for reporting economic statistics includes the above LGAs in two SA4 areas comprising the Hunter Valley region, but classifies the Mid-Coast LGA in the Mid North Coast SA4.
