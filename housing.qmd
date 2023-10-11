@@ -1,0 +1,298 @@
+```{=html}
+<style>
+    h1, h2, h3, h4, h5, h6 {
+        color: darkblue;
+        text-align: center;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;C
+      color: #333333;
+      margin: 0;
+      padding: 20px;
+      text-align: justify;
+    }
+    h2 {
+      text-align: center;
+      margin-top: 40px;
+      color: darkblue;
+      border-bottom: 2px solid #444;
+    }
+    /* Hide all figure divs by default */
+    .figure {
+    display: none;
+    }
+    /* Button Container */
+    .button-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Individual Buttons */
+    .button {
+        background-color: #f2f2f2;
+        font-size: 14px;
+        border: 0.5px solid white;
+        margin: 5px; /* Add some spacing between buttons */
+        padding: 10px 20px; /* Adjust padding for better button size */
+        cursor: pointer; /* Add a pointer cursor on hover */
+    }
+    /* Change background color on hover */
+    .button:hover {
+        background-color: #dddddd;
+    }
+
+    /* Change text color */
+    .button {
+        color: #333333;
+    }
+
+</style>
+```
+# HOUSING
+
+# Housing Demand
+
+## Population movements
+
+The data below shows the percentage of the population who have moved in the last 1 or 5 years based on information collected in the census.
+
+Whilst the 1 year change is fairly flat in 2021 compared to earlier years for SA4 level and many LGAs, the 5-year change shows a strong increase - both pre-COVID (2011-2016) and through COVID (2016-2021). At the LGA level, there are expected patterns, e.g. for Newcastle LGA, but some strong increases also in mining communities, such as out of Singleton and Cessnock.
+
+<iframe src="../../html_figs/migration.html" width="850" height="800" style="display: block; margin: 0 auto;">
+
+</iframe>
+
+## Rental demand
+
+The data below shows the percentage of the population who are renting. Whilst most LGAs in the Hunter are lower than State of National average, there is a strong growth in rental percentage at the SA4 level. Newcastle, Cessnock and Maitland have been driving these rent growths, tempered by other regional LGAs, which are seeing a decline in rental percentage.
+
+<iframe src="../../html_figs/Percentage_Rent.html" width="850" height="800">
+
+</iframe>
+
+# Housing Prices
+
+## Housing sale prices: Price, Volume, Change Hunter-Total
+
+The data in this figure shows the median house price (excluding outliers) for the total Hunter region based on NSW Valuer General data (data collected as part of sales process). The purple line shows the monthly median, whilst the blue line is smoothed data based on a 6 month rolling average of the monthly medians. Data in the last 3 months (beyond the dotted green line) are unreliable due to unfulfilled settlements. In the second sub-plot, the volume of sales is plotted, with green bars corresponding to periods of price increases, and red bars corresponding to periods of price decreases. This quarterly change (% change in prices) is plotted in the third sub-plot. Finally the inter-quartile distribution is plotted in the fourth subplot.
+
+<iframe src="../../html_figs/houseprices_triple_Hunter-Total.html" width="1250" height="950">
+
+</iframe>
+
+## Rental prices
+
+This figure shows the tracking of rental prices at the LGA level. Published by the NSW Department of Family and Community Services.
+
+Rental prices may have just started to see the peak in price rises that have been evident in house sales for some time. The acceleration since 2021 is still high, with most LGAs seeing faster rises than Sydney or NSW. The data below is for the median weekly rent for 3-bedroom stand-alone houses. Rental prices have tempered some of their increases: 12 months to March showed increases in the range of 14-26% across LGAs in the region, whilst the most recent quarter (to June 2023) has seen decreases in some LGAs to give a 12 months to June result of 1-6% increase. Newcastle and Port Stephens have seen the highest rises over this time.
+
+```{=html}
+<p style="display: flex; justify-content: center;">
+    <p style="flex: 1; display: flex; justify-content: center;">
+    <button id="button11" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot1('../../html_figs/rentalprices_nswfacs.html')">Values</button>
+    <button id="button12" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot1('../../html_figs/rentalprices_nswfacs_indexed.html')">Indexed</button>
+    </p>
+</p>
+<iframe id="plotFrame1" src="../../html_figs/rentalprices_nswfacs_indexed.html" width="800" height="600"></iframe>
+<script type="text/javascript">
+    function loadPlot1(file) {
+        var plotFrame = document.getElementById("plotFrame1");
+        plotFrame.src = file;
+    }
+</script>
+```
+[Data source: NSW FACS]{style="font-size: small;"}
+
+<iframe src="../../html_figs/rentalprices_last_quart.html" width="800" height="600">
+
+</iframe>
+
+[Data source: NSW FACS]{style="font-size: small;"}
+
+## House prices to Annual Rent ratio
+
+This figure shows the ratio of house price for a median 3 bedroom house to the rental price. It is an indicator of affordability of rents vs purchases, but also used by investors to determine whether returns on investments are high. Internationally, a value of "20" is a common baseline, and Australia tracks well above this number (reflecting the relatively high price of housing purchases).
+
+<iframe src="../../html_figs/sales_rents_ratio.html" width="900" height="600">
+
+</iframe>
+
+## Housing expenses - price movements
+
+The ABS publish specific price data on housing related expenses to give better insights (at the national level) about the price movements of purchases, rents and other expenses. Whilst a lot of focus has been put on electricity costs in the recent period, this is only partially justified based on movements in the last 12 months - but comes from a low point in electricity prices.
+
+<iframe src="../../html_figs/cpi_housing.html" width="900" height="600">
+
+</iframe>
+
+## Construction prices
+
+Another major concern (both for private and public housing) has been the cost of construction, especially due to policy enacted in response to the COVID shutdown that saw a boom in construction activity. That coupled with difficulties in supply chains and transportation saw construction related prices sky-rocket. Now it appears that construction prices have peaked, but well above the previous level.
+
+<iframe src="../../html_figs/construction_ppi.html" width="900" height="600">
+
+</iframe>
+
+## 
+
+# Housing Supply
+
+## Building approvals
+
+This shows the number of building approvals by type since 2016 for the whole of the Hunter. <iframe src=../../html_figs/building_type_hunter.html width="800" height="600"></iframe>
+
+The same in a cumulative figure (building approvals by type since 2016 for the whole of the Hunter). Clearly the detached house is the main focus of development in the Hunter <iframe src=../../html_figs/building_type_hunter_cumul.html width="800" height="600"></iframe>
+
+```{=html}
+
+<!-- Row 1: Housing Type Buttons -->
+<p style="display: flex; justify-content: center;">
+    <p style="flex: 1; display: flex; justify-content: center;">
+        <button id="button21" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot('Houses', false)">Houses</button>
+        <button id="button22" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot('Apartments', false)">Apartments</button>
+        <button id="button23" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot('Semi_detached', false)">Semi-detached</button>
+        <button id="button24" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot('Other_Res', false)">Other Residential</button>
+    </p>
+</p>
+
+<!-- Row 2: Cumulative/Number Buttons -->
+<p style="display: flex; justify-content: center;">
+    <p style="flex: 1; display: flex; justify-content: center;">
+        <button id="button24" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot(currentType, true)">Cumulative</button>
+        <button id="button25" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot(currentType, false)">Number</button>
+    </p>
+</p>
+
+<!-- Figure -->
+<iframe id="plotFrame2" src="../../html_figs/BuildApprov_Map_Anim_HousesSA2.html" width="800" height="600"></iframe>
+
+<script type="text/javascript">
+    let currentType = 'Houses'; // Default housing type
+
+    function loadPlot(figureType, isCumulative) {
+        var plotFrame = document.getElementById("plotFrame2");
+        var figureFile = `../../html_figs/BuildApprov_Map_Anim_${figureType}`;
+
+        // Determine the file extension based on the isCumulative parameter
+        if (isCumulative) {
+            figureFile += `_cumulSA2.html`;
+        } else {
+            figureFile += `SA2.html`;
+        }
+
+        // Set the source of the iframe to load the selected figure
+        plotFrame.src = figureFile;
+        currentType = figureType; // Update the current housing type
+    }
+</script>
+```
+# Social issues
+
+-   Sprawl
+-   Commute time/distance
+-   Homelessness
+
+## Homelessness
+
+<iframe src="../../html_figs/AllHomelessAusNswHunter.html" width="800" height="600">
+
+</iframe>
+
+
+## Homelessness by LGA
+
+<!-- Row 1: Category Buttons -->
+
+::: button-container
+<button class="button" id="button1" onclick="loadFigure(1)">
+
+People living in improvised dwellings, tents, or sleeping out
+
+</button>
+
+<button class="button" id="button2" onclick="loadFigure(2)">
+
+People in supported accommodation for the homeless
+
+</button>
+
+<button class="button" id="button3" onclick="loadFigure(3)">
+
+People staying temporarily with other households(e)
+
+</button>
+
+<button class="button" id="button4" onclick="loadFigure(4)">
+
+People living in boarding houses
+
+</button>
+
+<button class="button" id="button5" onclick="loadFigure(5)">
+
+People in other temporary lodgings
+
+</button>
+
+<button class="button" id="button6" onclick="loadFigure(6)">
+
+People living in 'severely' crowded dwellings
+
+</button>
+:::
+
+<!-- Row 2: Category Buttons -->
+
+::: button-container
+<button class="button" id="button7" onclick="loadFigure(7)">
+
+All homeless persons
+
+</button>
+
+<button class="button" id="button8" onclick="loadFigure(8)">
+
+People living in other crowded dwellings
+
+</button>
+
+<button class="button" id="button9" onclick="loadFigure(9)">
+
+People in other improvised dwellings
+
+</button>
+
+<button class="button" id="button10" onclick="loadFigure(10)">
+
+People who are marginally housed in caravan parks
+
+</button>
+
+<button class="button" id="button11" onclick="loadFigure(11)">
+
+People living in severely and other crowded dwellings
+
+</button>
+:::
+
+<!-- Figure -->
+
+<iframe id="plotFrame" src="../../html_figs/homelessness1.html" width="800" height="600">
+
+</iframe>
+
+```{=html}
+<script type="text/javascript">
+    let currentCategory = 1; // Default category
+
+    function loadFigure(category) {
+        var plotFrame = document.getElementById("plotFrame");
+        var figureFile = `../../html_figs/homelessness${category}.html`;
+
+        // Set the source of the iframe to load the selected figure
+        plotFrame.src = figureFile;
+        currentCategory = category;
+    }
+</script>
+```
