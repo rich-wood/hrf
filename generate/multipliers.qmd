@@ -35,8 +35,6 @@ Understanding the role of multipliers is crucial in measuring the economic impac
 
 The output multiplier quantifies the ripple effects of increased output in a specific sector. When a particular industry in the Hunter Region experiences growth, it generates additional income and demand for goods and services, which in turn stimulates other sectors. The output multiplier provides insights into the overall economic output and the interconnectedness of industries within the region.
 
-::: {style="display: flex; justify-content: center;"}
-::: {style="flex: 1;"}
 <!-- Embed the first figure here -->
 
 <iframe src="html_figs/clustered_bar_Output_Multiplier.html" width="800" height="600">
@@ -57,16 +55,11 @@ The total Employment effects show the direct plus indirect employment change rel
 
 These values are expressed in full-time equivalent or FTE. Total effects are per million AUD.
 
-::: {style="display: flex; justify-content: center;"}
-::: {style="flex: 1;"}
-<!-- Embed the first figure here -->
 
 <iframe src="html_figs/clustered_bar_Employment_jobs_Multiplier.html" width="800" height="600">
 
 </iframe>
-:::
 
-::: {style="flex: 1;"}
 <!-- Embed the second figure here -->
 
 <iframe src="html_figs/clustered_bar_Employment_jobs_Total_Effect.html" width="800" height="600">
@@ -89,7 +82,6 @@ The total income effects show the direct plus indirect income change relative to
 
 These values are expressed in million AUD. Total effects are per million AUD.
 
-::: {style="display: flex; justify-content: center;"} ::: {style="flex: 1;"} <!-- Embed the first figure here -->
 
 <iframe src="html_figs/clustered_bar_Wages_Salaries_Multiplier.html" width="800" height="600">
 
