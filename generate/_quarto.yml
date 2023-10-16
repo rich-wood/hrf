@@ -10,11 +10,17 @@ website:
     background: primary
     search: true
     left:
-      - healthyhousing.qmd
-      - GeogOfJobs.qmd
-      - EconUpdate.qmd
-      - housing.qmd
-      - multipliers.qmd
+      - text: "HOUSING INSIGHTS"
+        file: healthyhousing.qmd
+      - text: "GEOGRAPHY OF JOBS"
+        file: GeogOfJobs.qmd
+      - text: "ECONOMIC UPDATE"
+        file: EconUpdate.qmd
+      - text: "HOUSING DASHBOARD"
+        file: housing.qmd
+      - text: "MULTIPLIERS"
+        file: multipliers.qmd
+
       
 output:
   quarto::quarto_html:
