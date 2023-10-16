@@ -10,6 +10,8 @@ website:
     background: primary
     search: true
     left:
+      - healthyhousing.qmd
+      - GeogOfJobs.qmd
       - EconUpdate.qmd
       - housing.qmd
       - multipliers.qmd

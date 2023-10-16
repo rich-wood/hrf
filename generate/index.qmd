@@ -4,10 +4,11 @@ title: "HUNTER INSIGHTS DASHBOARD"
 
 This is a growing collection of web-pages that show insights for the Hunter.
 
+[Housing Insights (October 2023)](healthyhousing.html)
+
+
 [Economic Update (October 2023)](EconUpdate.html)
 
-
-[Housing Insights (October 2023)](housing.html)
-
+[Housing HRF Dashboard (October 2023)](housing.html)
 
 [Hunter Multipliers ](multipliers.html)
