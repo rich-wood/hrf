@@ -16,25 +16,24 @@ website:
         file: GeogOfJobs.qmd
       - text: "ECONOMIC UPDATE"
         file: EconUpdate.qmd
+      - text: "STRUCTURAL CHANGE"
+        file: long_term.qmd
       - text: "HOUSING DASHBOARD"
         file: housing.qmd
       - text: "MULTIPLIERS"
         file: multipliers.qmd
-
-      
+    
 output:
   quarto::quarto_html:
     headings:
       - "NATIONAL CONDITIONS : Headlines"
-    toc:
-      - "ECONOMIC UPDATE : ECONOMIC"
     self_contained: true
     resource_dir: ../../Dashboard/resources/
 
 
 format:
   html:
-    theme: cosmo
+    theme: pulse
     css: styles.css
     toc: true
 

@@ -6,8 +6,11 @@ This is a growing collection of web-pages that show insights for the Hunter.
 
 [Housing Insights (October 2023)](healthyhousing.html)
 
+[Geography of Jobs (May 2023)](GeogOfJobs.html)
 
 [Economic Update (October 2023)](EconUpdate.html)
+
+[Structural Change in the Hunter (May 2023)](long_term.html)
 
 [Housing HRF Dashboard (October 2023)](housing.html)
 

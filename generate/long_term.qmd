@@ -1,0 +1,81 @@
+```{=html}
+<style>
+    h1, h2, h3, h4, h5, h6 {
+        color: #005EB8;
+        text-align: center;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333333;
+      margin: 0;
+      padding: 20px;
+      text-align: justify;
+    }
+    h2 {
+      text-align: center;
+      margin-top: 40px;
+      color: #005EB8;
+      border-bottom: 2px solid #444;
+    }
+</style>
+```
+# 
+
+# HUNTER REGION LONG-TERM TRENDS
+
+## Structural Change in the Hunter
+
+Broadly, Australia's employment structure is comprised of 50% population servicing jobs -- such as retail, administration, construction and utilities -- and 30% government funded services, such as health and education. The other 20% of jobs are split equally between tradeable goods -- mining, manufacturing and agriculture -- and tradeable, 'knowledge' services -- such as IT, research, advisory and technical services.
+
+The ratio of jobs in tradeable goods vs knowledge services in the Hunter is changing. For the first time, we are seeing knowledge jobs being greater than goods jobs in the Newcastle region.
+
+Tradeable goods -- largely mining but also with material manufacturing and agriculture shares -- have reduced from 30% of jobs in 1999 to 18% in February 2023, although this is still about double the national percentage.
+
+This reduced share in the Hunter Balance has largely been taken up by government funded service jobs (7 percentage points), with small contributions from knowledge and private sector population servicing jobs.
+
+Newcastle and Lake Macquarie follows a similar pattern to the Australian average, while the other areas of the Hunter have double the tradeable goods jobs, and half the knowledge jobs, compared to the national picture. 
+
+Over the past 25 years, jobs in mining, manufacturing and agriculture have gradually shrunk as a proportion of total jobs across the country, with corresponding increases in government funded services, and in knowledge type jobs.
+
+A finer grained regional analysis shows that Newcastle & Lake Macquarie recently hit an inflection point, where the number of people employed in producing tradeable goods was exceeded for the first time by knowledge based services that are theoretically tradeable -- that is, can draw income from servicing demand beyond the immediate regional population.
+
+<p style="display: flex; justify-content: center;">
+
+<p style="flex: 1; display: flex; justify-content: center;">
+
+<button id="button31" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot3(&#39;html_figs/employment_hunter_know_vs_goodHunterWhole.html&#39;)">
+
+Hunter Regional
+
+</button>
+
+<button id="button32" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot3(&#39;html_figs/employment_hunter_know_vs_goodHunterExclNewc.html&#39;)">
+
+Hunter excluding Newcastle and Lake Mac
+
+</button>
+
+<button id="button33" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot3(&#39;html_figs/employment_hunter_know_vs_goodNewcastleLakeM.html&#39;)">
+
+Newcastle and Lake Macquarie
+
+</button>
+
+</p>
+
+</p>
+
+<iframe id="plotFrame" src="html_figs/employment_hunter_know_vs_goodHunterWhole.html" width="800" height="600">
+
+</iframe>
+
+```{=html}
+<script type="text/javascript">
+    function loadPlot3(file) {
+        var plotFrame = document.getElementById("plotFrame");
+        plotFrame.src = file;
+    }
+</script>
+```
+[Data source: ABS Labour Force, Australia, Detailed.]{style="font-size: small;"}
