@@ -67,7 +67,7 @@
 
 The Institute for Regional Futures' Insights Dashboard tracks socio-economic conditions in the Hunter. The dashboard is based on the Hunter Research Foundation Centre's databank collected over 60 years, the most comprehensive collection of any region in Australia.
 
-This dashboard is the first of the Institute's new format economic update, designed to give decision-makers in government, industry and the community the latest data on the Hunter's performance across key indicators. The dashboard draws upon national and regional data sources to deliver insights into the Hunter region. These updates will be provided three times per year, in addition to the [Hunter Insight Series](https://www.newcastle.edu.au/research/centre/regional-futures/hunter-insight-series).
+This new dashboard of economic updates is designed to give decision-makers in government, industry and the community the latest data on the Hunter’s performance across key indicators. The dashboard draws upon national and regional data sources to deliver insights into the Hunter region. These updates will be provided three times per year, in addition to the [Hunter Insight Series](https://www.newcastle.edu.au/research/centre/regional-futures/hunter-insight-series).
 
 The dashboard is a snapshot of the total data collected by the Institute for Regional Futures. For more information, please contact [irf\@newcastle.edu.au](irf@newcastle.edu.au).
 
@@ -84,7 +84,7 @@ The dashboard is a snapshot of the total data collected by the Institute for Reg
 
 ## Hunter conditions
 
--   Hunter labour market (employment): Latest quarter shows growth in employment in public services and consumer facing sectors, and declines in agriculture, mining, manufacturing, and utilities. 11,500 jobs added in the first six months of 2023.
+-   Hunter labour market (employment): 11,500 jobs added in the first six months of 2023. Latest quarter shows growth in employment in public services and consumer facing sectors, and declines in agriculture, mining, manufacturing, and utilities.
 -   Hunter labour market (unemployment): The unemployment rate continues to drop to 2.4% in July 2023. The level is at record lows.
 -   Hunter housing market: Prices in the Hunter remain mixed, with declines in some LGAs offsetting continued increases in others. Overall median house prices are down 2% for the first quarter of 2023. Rental prices are showing the first signs of peaking, with second quarter results ranging from -1.5% to +6.5% across the Hunter LGAs.
 
@@ -141,6 +141,7 @@ The [NAB Group Economics](https://business.nab.com.au/author/nab-group-economic/
 <iframe src="figs/NAB_business.html" width="800" height="600">
 
 </iframe>
+[Data source: [NAB Group Economics](https://business.nab.com.au/author/nab-group-economic/)]{style="font-size: small;"}
 
 ## Household spending {#household-spending}
 
@@ -160,7 +161,7 @@ Prices have stabilised compared to the large increases seen in the previous 12-2
 
 ## Employment {#employment}
 
-The 3-month moving average of employment grew strongly in the lead up to July 2023, with 11,500 full-time jobs added in the region in the previous 6 months. The Hunter Valley region (including the SA4s of 'Hunter Valley excluding Newcastle', and 'Newcastle and Lake Macquarie'\*) added 1,010 full-time jobs in July 2023, down from 3,600 jobs in April 2023.
+The 3-month moving average of employment grew strongly in the lead up to July 2023, with 11,500 full-time jobs added in the Hunter Valley region in the previous 6 months. The Hunter Valley region added 1,010 full-time jobs in July 2023, down from 3,600 jobs in April 2023. Employment statistics are collected at the Statistical Area Level 4, including the SA4s of 'Hunter Valley excluding Newcastle', and 'Newcastle and Lake Macquarie', but excluding the Mid-Coast LGA which is classified in the Mid North Coast SA4 region.
 
 Employment grew by 7.7% over the year to July, well above jobs growth for NSW which was also strong at 4.2%. The region's growth rate was slightly down compared to a year prior. Part-time employment was even stronger, with a 21% growth in the 12 months to July in the Hunter. This corresponded to a 39% reduction in the number of unemployed.
 
@@ -170,7 +171,8 @@ At the state level, part-time growth was much more moderated, dropping from an a
 
 </iframe>
 
-[Data source: ABS Labour Force, Australia, Detailed. [Data in tabular format available here.](figs/employment_hunter_monthly_tab.html)]{style="font-size: small;"}
+[Data source: [ABS Labour Force, Australia,Detailed](https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/aug-2023)]{style="font-size: small;"}
+[[Data in tabular format available here.](figs/employment_hunter_monthly_tab.html)]{style="font-size: small;"}
 
 ## Unemployment {#unemployment}
 
@@ -180,7 +182,7 @@ The Hunter Valley's unemployment rate has continued to plunge since the highs re
 
 </iframe>
 
-[Data source: ABS Labour Force, Australia, Detailed.]{style="font-size: small;"}
+[Data source: [ABS Labour Force, Australia,Detailed](https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/aug-2023)]{style="font-size: small;"}
 
 The last 12 months of data show that the Hunter is trending towards significantly lower levels of unemployment than the NSW average. The Upper Hunter has seen large decreases in unemployment, higher than the Hunter average.
 
@@ -188,7 +190,7 @@ The last 12 months of data show that the Hunter is trending towards significantl
 
 </iframe>
 
-[Data source: ABS Labour Force, Australia, Detailed.]{style="font-size: small;"}
+[Data source: [ABS Labour Force, Australia,Detailed](https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/aug-2023)]{style="font-size: small;"}
 
 ## Employment - by industry {#employment---by-industry}
 
@@ -200,7 +202,7 @@ Although short-term fluctuations occur, the long-term trend indicates a signific
 
 </iframe>
 
-[Data source: ABS Labour Force, Australia, Detailed.]{style="font-size: small;"}
+[Data source: [ABS Labour Force, Australia,Detailed](https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/aug-2023)]{style="font-size: small;"}
 
 The last 3 months of data (Feb - May 2023) present a mixed picture, with earlier growths in mining and manufacturing jobs now showing declines. Professional and financial services saw the largest declines in the service sector whereas public services, health and education saw large increases. Interestingly, given the national economic data on consumption, the region's retail trade and hospitality sectors saw large increases in employment of circa 3% in a quarter.
 
@@ -208,7 +210,7 @@ The last 3 months of data (Feb - May 2023) present a mixed picture, with earlier
 
 </iframe>
 
-[Data source: ABS Labour Force, Australia, Detailed.]{style="font-size: small;"}
+[Data source: [ABS Labour Force, Australia,Detailed](https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/aug-2023)]{style="font-size: small;"}
 
 ## House prices {#house-prices}
 
@@ -227,7 +229,7 @@ The last 3 months of data (Feb - May 2023) present a mixed picture, with earlier
     }
 </script>
 ```
-[[NSW Govt Rent and Sales Report](https://www.facs.nsw.gov.au/resources/statistics/rent-and-sales/dashboard)]{style="font-size: small;"}
+[Data source: [NSW Govt Rent and Sales Report](https://www.facs.nsw.gov.au/resources/statistics/rent-and-sales/dashboard)]{style="font-size: small;"}
 
 The data currently paints a mixed picture on housing prices across the region. The big increases seen post COVID have only started to recede in some LGAs. Hunter median prices fell by 2.2% in the second half of 2022 and another 2% in the first quarter of 2023. Initial data provided for the second and third quarter tend to support a further decline in line with this trend.
 
@@ -239,7 +241,7 @@ Among Hunter LGAs, the Upper Hunter showed the largest price increases of 13% in
 
 </iframe>
 
-[[NSW Govt Rent and Sales Report](https://www.facs.nsw.gov.au/resources/statistics/rent-and-sales/dashboard)]{style="font-size: small;"}
+[Data source: [NSW Govt Rent and Sales Report](https://www.facs.nsw.gov.au/resources/statistics/rent-and-sales/dashboard)]{style="font-size: small;"}
 
 ### Rental prices {#rental-prices}
 
@@ -279,7 +281,7 @@ Indexed
     }
 </script>
 ```
-[[NSW Govt Rent and Sales Report](https://www.facs.nsw.gov.au/resources/statistics/rent-and-sales/dashboard). Data indexed to start 2009.]{style="font-size: small;"}
+[Data source: [NSW Govt Rent and Sales Report](https://www.facs.nsw.gov.au/resources/statistics/rent-and-sales/dashboard). Data indexed to start 2009.]{style="font-size: small;"}
 
 According to the last period of data, the Hunter is still experiencing price increases that are outstripping the state and Greater Sydney median for most LGAs. The data below is for the median weekly rent for 3-bedroom stand-alone houses in the 6 months to June 2023. No data point is reported for Dungog and the Upper Hunter Shire due to low volumes of rentals in the last period. Singleton has had the largest increase with a 7% price increase in 6 months.
 
@@ -288,13 +290,20 @@ The NSW median price increase was 0%, whilst Greater Sydney had an increase of a
 <iframe src="figs/rentalprices_last_quart.html" width="800" height="600">
 
 </iframe>
+[Data source: [NSW Govt Rent and Sales Report](https://www.facs.nsw.gov.au/resources/statistics/rent-and-sales/dashboard)]{style="font-size: small;"}
+
+------------------------------------------------------------------------
 
 For more detail on the Hunter Insights Dashboard, please contact the [Institute for Regional Futures](IRF@newcastle.edu.au) 
 
 
 ------------------------------------------------------------------------
 
-The data presented here for the Hunter Region includes the local government areas (LGAs) of Cessnock, Dungog, Lake Macquarie, Maitland, Mid-Coast, Muswellbrook, Newcastle, Port Stephens, Singleton and Upper Hunter. However, the ABS collects and reports data by Statistical Area which does not fully align with this definition. The Statistical Area Level 4 (SA4) classification, commonly used for reporting economic statistics includes the above LGAs in two SA4 areas comprising the Hunter Valley region, but classifies the Mid-Coast LGA in the Mid North Coast SA4. \|
+\* The data presented here for the Hunter Region includes the local government areas (LGAs) of Cessnock, Dungog, Lake Macquarie, Maitland, Mid-Coast, Muswellbrook, Newcastle, Port Stephens, Singleton and Upper Hunter. However, the ABS collects and reports data by Statistical Area which does not fully align with this definition. The Statistical Area Level 4 (SA4) classification, commonly used for reporting economic statistics includes the above LGAs in two SA4 areas comprising the Hunter Valley region, but classifies the Mid-Coast LGA in the Mid North Coast SA4.
+
+------------------------------------------------------------------------
+
+Suggested citation: Institute for Regional Futures. “Hunter Insights Dashboard, Economic Update – October 2023.” University of Newcastle. October 2023. URL.
 
 ------------------------------------------------------------------------
 
