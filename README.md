@@ -1,4 +1,6 @@
-# hrf
+# hrf - https://rich-wood.github.io/hrf/
+
+https://rich-wood.github.io/hrf/
 
 Generate html files, using quarto in the folder ./generate/
 All edits happen in the ./generate/ folder
