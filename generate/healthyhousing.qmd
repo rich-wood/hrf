@@ -6,76 +6,7 @@ editor:
     wrap: 72
 ---
 
-<head>
-
-<meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Geography of Jobs</title>
-
-```{=html}
-<style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      color: #333333;
-      margin: 0;
-      padding: 20px;
-    }
-
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-      background-color: #fff;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    .image-container {
-      max-width: 100%;
-      max-height: 100%;
-      margin: 0 auto;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    
-    .image-container img {
-      max-width: 100%;
-      max-height: 100%;
-    }
-
-    h1, h2 {
-      text-align: center;
-      color: #005EB8;
-    }
-
-    h2 {
-      margin-top: 40px;
-    }
-
-    p {
-      text-align: justify;
-      margin-bottom: 20px;
-    }
-
-    ol {
-      margin-bottom: 20px;
-    }
-
-    @media only screen and (max-width: 600px) {
-      body {
-        padding: 10px;
-      }
-    }
-  </style>
-```
-</head>
-
-<body>
-
-
-![](slides/slide1.png)
+![](slides_housing/slide1.png)
 
 ::: container
 Delivering more affordable, quality housing is one of Australia's most
@@ -93,7 +24,7 @@ The content of this work was presented at the third Hunter Insight
 Series, presented at the University of Newcastle in October 2023.
 
 ::: container
-<h2>Summary</h2>
+## Summary
 
 This presentation outlines the profound housing crisis currently faced
 by Australia and the critical need for systemic reform. It draws
@@ -112,7 +43,7 @@ improvements are urgently required to deliver sustainable solutions and
 avoid future housing crises.
 :::
 
-<h2>Introduction</h2>
+## Introduction
 
 The housing crisis is a pressing concern that demands immediate
 attention and systemic reform. There are many challenges faced by the
@@ -123,7 +54,7 @@ transformative changes. This presentation addresses key issues, proposes
 solutions, and stresses the urgency of adopting a housing market area
 approach.
 
-<h2>International experiences</h2>
+## International experiences
 
 Australia is not alone in facing this housing challenge. Governments
 across the globe have been taking similarly drastic measures. One such
@@ -132,9 +63,9 @@ closely mirrored the discourse here in Australia. The enormity of the
 changes being proposed, both here and abroad, have been genuinely
 unprecedented.
 
-![](slides/slide2.png)
+![](slides_housing/slide2.png)
 
-<h2>History repeating</h2>
+## History repeating
 
 The housing crisis is not a recent phenomenon; it has deep historical
 roots. The Australian Housing Conference in 1982 serves as a case in
@@ -151,9 +82,9 @@ crisis with a number of familiar and recurring themes raised, including:
 
 -   long waitlists for public housing."
 
-![](slides/slide3.png)
+![](slides_housing/slide3.png)
 
-<h2>Where to start?</h2>
+## Where to start?
 
 More Government money than ever has been allocated to deliver
 housing...land dedications, faster approvals, infrastructure,
@@ -163,9 +94,9 @@ better outcomes, it's worth pausing for a minute to check whether the
 system we're all working away tirelessly within is setting us up for
 success.
 
-![](slides/slide4.png)
+![](slides_housing/slide4.png)
 
-<h2>NSW Planning Framework</h2>
+## NSW Planning Framework
 
 In practice the 'heart beat' of the NSW Population projections are
 circulated through the system by a range of policy directives. The 'main
@@ -177,9 +108,9 @@ That's because this system is linear, complex, and relies on several
 interdependencies. We must ask ourselves whether this sets us up for the
 rapid responses to the housing crises that we urgently need?
 
-![](slides/slide5.png)
+![](slides_housing/slide5.png)
 
-<h2>Key Truths</h2>
+## Key Truths
 
 Three fundamental truths must be acknowledged for effective planning:
 
@@ -195,9 +126,9 @@ Three fundamental truths must be acknowledged for effective planning:
     part of the solution; adequate infrastructure and systemic support
     are equally crucial.
 
-![](slides/slide6.png)
+![](slides_housing/slide6.png)
 
-<h2>Projections aren't targets</h2>
+## Projections aren't targets
 
 One of the key drivers of housing demand is population growth so it
 makes sense that the State-wide population projections, published by the
@@ -218,9 +149,9 @@ how close we're tracking against what was projected based on past
 performance. This indicates that it is entirely possible that we could
 achieve higher growth levels than have previously been projected.
 
-![](slides/slide8.png)
+![](slides_housing/slide8.png)
 
-<h2>NSW Implied dwellings</h2>
+## NSW Implied dwellings
 
 Understanding how many houses we need to accommodate that growth is not
 easy algebra. But this is given to us in the number of 'implied
@@ -246,12 +177,12 @@ need anywhere in our planning system -- the updated projections each
 year keep us looking forward to future need, not historic needs. So, our
 'in practice' target is never giving us the full picture.
 
-![](slides/slide9.png)
+![](slides_housing/slide9.png)
 
 The next three slides help illustrate what that oversight means in the
 Hunter's 'lived experience'.
 
-<h2>Rental Vacancy</h2>
+## Rental Vacancy
 
 Here we have SQM data showing rental vacancy rates going back to 2010.
 Typically, a 3% benchmark is used to indicate a healthy market -- one
@@ -261,9 +192,9 @@ up an almost touched that 3% benchmark in mid-2015, the reality is that
 our region has an entire generation of people who have never experienced
 what it is like to live in a fair and accessible housing market.
 
-![](slides/slide10.png)
+![](slides_housing/slide10.png)
 
-<h2>Homelessness</h2>
+## Homelessness
 
 The next slide shows the rise in homelessness for our Region over the
 last 20 years. The chart is normalised to the 2001 levels for the
@@ -272,9 +203,9 @@ has almost doubled in the last 20 years. And, while the national and
 state levels reduced in the last census period, our homelessness rates
 continued to grow.
 
-![](slides/slide11.png)
+![](slides_housing/slide11.png)
 
-<h2>Overcrowding</h2>
+## Overcrowding
 
 Hidden forms of homelessness are also on the rise, which looks like:
 crisis accommodation, people living temporarily in boarding houses or
@@ -293,14 +224,14 @@ This next slide shows the spatial inequalities emerging across the
 Region, with Newcastle, Lake Macquarie, MidCoast, and Cessnock showing
 the highest concentrations.
 
-![](slides/slide12.png)
+![](slides_housing/slide12.png)
 
 **We urgently need to move beyond relying on projections as our 'in
 practice' housing target and instead develop more robust planning
 methodologies with a built-in level of contingency to truly address
 pre-existing and future housing needs.**
 
-<h2>Local Government Areas are not housing markets</h2>
+## Local Government Areas are not housing markets
 
 An awful lot of expectation and responsibility to deal with the housing
 crises falls to Councils -- they're involved in setting the planning
@@ -311,7 +242,7 @@ But allocating a portion of growth to a local government area doesn't
 give us the full picture of what 'the market' needs, because local
 government areas are not housing markets.
 
-<h2>Scottish Planning Model</h2>
+## Scottish Planning Model
 
 If we're going to think about whether our system is designed for
 success, it is worth looking at other approaches. Given the almost
@@ -336,9 +267,9 @@ including guidelines from the UK and housing studies by SGS here in
 Australia to try and re-imagine a different spatial framework that might
 help us understand housing market needs more robustly.
 
-![](slides/slide14.png)
+![](slides_housing/slide14.png)
 
-<h2>Case for housing market areas</h2>
+## Case for housing market areas
 
 We rely so heavily on journey-to-work data in planning, but it is
 evident across Australia that centres-based planning is become less
@@ -376,7 +307,7 @@ and the white lines are local government area boundaries. This modelling
 showed time and again that in reality, people's choice about where to
 live doesn't stop at LGA boundaries.
 
-![](slides/slide15.png)
+![](slides_housing/slide15.png)
 
 The place-based solutions we urgently need to address the housing crises
 must be grounded in action, not just aspiration. Taking a housing market
@@ -407,7 +338,7 @@ I would argue this type of systems-based improvement is just as urgent a
 priority as addressing our infrastructure backlog if we truly want to
 deliver sustainable solutions.
 
-<h2>Actual v Projected dwellings (again)</h2>
+## Actual v Projected dwellings (again)
 
 Why aren't we able to supply in line with market demands?
 
@@ -433,12 +364,12 @@ which is that we aren't planning in the right way to truly deliver
 place-based solutions. We don't even know the full picture of what we
 need to operationalise.
 
-![](slides/slide17.png)
+![](slides_housing/slide17.png)
 
 So, does it make sense to push billions of dollars of public sector
 money through this system and expect to achieve the results we need?
 
-<h2>Where to from here?</h2>
+## Where to from here?
 
 -   Taking the time to work on the system now, and pivot into a more
     **stakeholder engaged adaptive management approach,** will better
@@ -451,7 +382,7 @@ money through this system and expect to achieve the results we need?
     Housing Conference's harrowing scope to current crisis in the
     housing sector.
 
-![](slides/slide19.png)
+![](slides_housing/slide19.png)
 
 ------------------------------------------------------------------------
 

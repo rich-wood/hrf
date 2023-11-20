@@ -4,7 +4,7 @@ Generate html files, using quarto in the folder ./generate/
 All edits happen in the ./generate/ folder
 Edit the .qmd files, not the html.
 
-html files write to parent directory.
+html files write to ./publish/ directory.
 copy images as needed (generate these externally)
 
 

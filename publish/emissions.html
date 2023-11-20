@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.427">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>HUNTER INSIGHTS DASHBOARD – emissions</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">HUNTER INSIGHTS DASHBOARD</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./healthyhousing.html" rel="" target="">
+ <span class="menu-text">HOUSING INSIGHTS</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./GeogOfJobs.html" rel="" target="">
+ <span class="menu-text">GEOGRAPHY OF JOBS</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./EconUpdate.html" rel="" target="">
+ <span class="menu-text">ECONOMIC UPDATE</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./long_term.html" rel="" target="">
+ <span class="menu-text">STRUCTURAL CHANGE</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./housing.html" rel="" target="">
+ <span class="menu-text">HOUSING DASHBOARD</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./multipliers.html" rel="" target="">
+ <span class="menu-text">MULTIPLIERS</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./emissions.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Emissions</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a></li>
+  <li><a href="#emissions-update" id="toc-emissions-update" class="nav-link" data-scroll-target="#emissions-update">Emissions update</a>
+  <ul class="collapse">
+  <li><a href="#progress-on-emissions-mitigation-in-the-hunter" id="toc-progress-on-emissions-mitigation-in-the-hunter" class="nav-link" data-scroll-target="#progress-on-emissions-mitigation-in-the-hunter">Progress on emissions mitigation in the Hunter</a></li>
+  <li><a href="#supply-side-emissions" id="toc-supply-side-emissions" class="nav-link" data-scroll-target="#supply-side-emissions">Supply side emissions</a></li>
+  <li><a href="#emissions-from-hunter-coal-exports" id="toc-emissions-from-hunter-coal-exports" class="nav-link" data-scroll-target="#emissions-from-hunter-coal-exports">Emissions from Hunter coal exports</a></li>
+  <li><a href="#emission-sources-in-the-hunter" id="toc-emission-sources-in-the-hunter" class="nav-link" data-scroll-target="#emission-sources-in-the-hunter">Emission sources in the Hunter</a></li>
+  <li><a href="#emission-sources-in-the-hunter-excluding-exported-electricity" id="toc-emission-sources-in-the-hunter-excluding-exported-electricity" class="nav-link" data-scroll-target="#emission-sources-in-the-hunter-excluding-exported-electricity">Emission sources in the Hunter, excluding exported electricity</a></li>
+  <li><a href="#demand-side-approaches---the-carbon-footprint-of-the-hunter" id="toc-demand-side-approaches---the-carbon-footprint-of-the-hunter" class="nav-link" data-scroll-target="#demand-side-approaches---the-carbon-footprint-of-the-hunter">Demand-side approaches - the carbon footprint of the Hunter</a>
+  <ul class="collapse">
+  <li><a href="#year-reductions" id="toc-year-reductions" class="nav-link" data-scroll-target="#year-reductions">5-year reductions</a></li>
+  <li><a href="#planned-reductions" id="toc-planned-reductions" class="nav-link" data-scroll-target="#planned-reductions">Planned reductions</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<style>
+    h1, h2, h3, h4, h5, h6 {
+        color: #005EB8;
+        text-align: center;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333333;
+      margin: 0;
+      padding: 20px;
+      text-align: justify;
+    }
+    h2 {
+      text-align: center;
+      margin-top: 40px;
+      color: #005EB8;
+      border-bottom: 2px solid #444;
+    }
+</style>
+<section id="section" class="level1">
+<h1></h1>
+</section>
+<section id="emissions-update" class="level1">
+<h1>Emissions update</h1>
+<p><br><br></p>
+<section id="progress-on-emissions-mitigation-in-the-hunter" class="level2">
+<h2 class="anchored" data-anchor-id="progress-on-emissions-mitigation-in-the-hunter">Progress on emissions mitigation in the Hunter</h2>
+<p><br><br></p>
+</section>
+<section id="supply-side-emissions" class="level2">
+<h2 class="anchored" data-anchor-id="supply-side-emissions">Supply side emissions</h2>
+<p><br></p>
+<p>The Hunter region is one of the key regions in Australia and NSW regarding GHG emissions. In 2021, 48 Mt or 37% of NSW emissions were in the Hunter. This is despite having only 8% of the NSW population.Sixty-eight per-cent of emissions are due to electricity generation, however. Sixty-three percent of these emissions are due to consumption of electricity (so called scope 2 emissions) outside the region.Adjusting for these emissions, results in 27Mt of emissions in the Hunter, still 21% of the state’s emissions. On a per-capita basis, emissions in the hunter are 61t/capita using scope 1 accounting, and adjusting for exported electricity, 34t/capital. Against a backdrop of an average Australian of 19t/capita (<a href="https://www.dcceew.gov.au/climate-change/publications/national-greenhouse-gas-inventory-quarterly-update-march-2022">National Greenhouse Gas Inventory Quarterly Update: March 2022 - DCCEEW</a>).</p>
+<p><br><br></p>
+</section>
+<section id="emissions-from-hunter-coal-exports" class="level2">
+<h2 class="anchored" data-anchor-id="emissions-from-hunter-coal-exports">Emissions from Hunter coal exports</h2>
+<p>If emissions from exported coal are included, the picture changes dramatically. In 2021, Newcastle exported 156,665,674 tonnes of coal (Port of Newcastle data). Assuming an energy content of 29GJ/t and an emission factor of 90kg CO2-eq/GJ (National Greenhouse gas factors) gives an estimated emission of 409 Mt CO2-eq, or 88% of Australia’s territorial emissions (based on Australia’s National Greenhouse Gas Inventory: March 2023).</p>
+<p>The IEA predicts global coal demand to plateau out to 2020. A decline in demand for coal in most advanced economies is being offset by a tight energy supply market (partly due to the Ukraine situation) raising prices, particularly for gas (<a href="https://iea.blob.core.windows.net/assets/91982b4e-26dc-41d5-88b1-4c47ea436882/Coal2022.pdf">IEA Coal report</a>).Scenarios to 2030 by the IEA in the World Energy Outlook estimate a peak and decline to 2020 levels by 2030 for global coal demand in the stated policies scenario, a decline of 10% in the Announced Pledges Scenario, and a fall by 55% in the Net Zero Scenario.</p>
+<p>One of the arguments regarding Hunter coal is that the emissions intensity is better than global average coal, and thus it should be one of the latter producers to exit the market. Whilst global demand for coal still remains, it is likely that sufficient global supply will occur.</p>
+<p><br><br></p>
+</section>
+<section id="emission-sources-in-the-hunter" class="level2">
+<h2 class="anchored" data-anchor-id="emission-sources-in-the-hunter">Emission sources in the Hunter</h2>
+<p>Below is a breakdown of the greenhouse gas emissions occurring in the Hunter region courtesy of the (<a href="https://www.seed.nsw.gov.au/net-zero-emissions-dashboard">NSW Net Zero Emissions Dashboard</a>).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="html_figs/HunterEmissionsProduction.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Breakdown of Hunter direct emissions</figcaption>
+</figure>
+</div>
+<p>Electricity generation is clearly the elephant in the room. Net zero is not going to be achieved without decarbonising electricity supply, but what if we exclude the electricity that is exported to Sydney and other regions? That will be the exclusion of the “Scope 1” emissions from electricity gneration. We can still include the impact we have as electricity consumers, but including what are known as “Scope 2 emissions”. These are emissions from electricity caused by the consumption of that electricity in the region. The elephant is a bit smaller, but we still clearly need to address emissions from electricity - either from a demand or a supply perspective.</p>
+<p><br><br></p>
+</section>
+<section id="emission-sources-in-the-hunter-excluding-exported-electricity" class="level2">
+<h2 class="anchored" data-anchor-id="emission-sources-in-the-hunter-excluding-exported-electricity">Emission sources in the Hunter, excluding exported electricity</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="html_figs/HunterEmissionsProductionExclElec.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Breakdown of Hunter direct emissions excluding electricity</figcaption>
+</figure>
+</div>
+<p>Are we progressing with emissions reductions?</p>
+<!--![Change over time](html_figs/hunter_emis.html)-->
+<iframe src="html_figs/hunter_emis.html" width="800" height="600">
+</iframe>
+</section>
+<section id="demand-side-approaches---the-carbon-footprint-of-the-hunter" class="level2">
+<h2 class="anchored" data-anchor-id="demand-side-approaches---the-carbon-footprint-of-the-hunter">Demand-side approaches - the carbon footprint of the Hunter</h2>
+<p>If a demand-side view of emissions is taken, below is the breakdown of final demand categories.</p>
+<!--![Household Carbon FOotprint of Hunter including exports](html_figs/cf_hunter_fd_cat.html)-->
+<iframe src="html_figs/cf_hunter_fd_cat.html" width="800" height="600">
+</iframe>
+<p>Clearly, excluding exports is needed to zoom into the footprint of activities in the region/</p>
+<!--![Household Carbon FOotprint of Hunter residents](html_figs/cf_hunter_fd_cat_excl_exp.html)-->
+<iframe src="html_figs/cf_hunter_fd_cat_excl_exp.html" width="800" height="600">
+</iframe>
+<p>Households are responsible for almost 50%, whilst investments (mainly private) are significant (mainly construction of residential building stock)</p>
+<p>Below is the breakdown of Household footprint</p>
+<!-- ![Household Carbon FOotprint of Hunter residents](html_figs/cf_hunter_hhld_sector.html)-->
+<iframe src="html_figs/cf_hunter_hhld_sector.html" width="800" height="600">
+</iframe>
+<p>Below is the breakdown of Household footprint diasggregated</p>
+<!-- ![Household Carbon FOotprint of Hunter residents](html_figs/cf_hunter_hhld_sector_disagg.html)-->
+<iframe src="html_figs/cf_hunter_hhld_sector_disagg.html" width="800" height="600">
+</iframe>
+<p>What is driving the footprint?</p>
+<!-- ![Carbon FOotprint Multipliers](html_figs/cf_multipliers.html)-->
+<iframe src="html_figs/cf_multipliers.html" width="800" height="600">
+</iframe>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="html_figs/supply_chain_prod_per_job.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Full supply chain accounting of emissions per job</figcaption>
+</figure>
+</div>
+<p>So how does the Hunter have such a huge carbon footprint? The dominance of coal mining in the region is one clear reason – even if only X% of the coal is burnt in Australia for electricity generation purposes, significant fuel and fugitive emissions occur in the mining and processing of coal to point of export. This is estimated at:</p>
+<section id="year-reductions" class="level3">
+<h3 class="anchored" data-anchor-id="year-reductions">5-year reductions</h3>
+</section>
+<section id="planned-reductions" class="level3">
+<h3 class="anchored" data-anchor-id="planned-reductions">Planned reductions</h3>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

@@ -15,3 +15,5 @@ This is a growing collection of web-pages that show insights for the Hunter.
 [Housing HRF Dashboard (October 2023)](housing.html)
 
 [Hunter Multipliers ](multipliers.html)
+
+[Emissions Update ](emissions.html)

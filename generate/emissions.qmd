@@ -1,0 +1,134 @@
+```{=html}
+<style>
+    h1, h2, h3, h4, h5, h6 {
+        color: #005EB8;
+        text-align: center;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333333;
+      margin: 0;
+      padding: 20px;
+      text-align: justify;
+    }
+    h2 {
+      text-align: center;
+      margin-top: 40px;
+      color: #005EB8;
+      border-bottom: 2px solid #444;
+    }
+</style>
+```
+# 
+
+# Emissions update
+
+<br><br>
+
+## Progress on emissions mitigation in the Hunter
+
+<br><br>
+
+
+
+## Supply side emissions
+
+
+<br>
+
+The Hunter region is one of the key regions in Australia and NSW regarding GHG emissions. In 2021, 48 Mt or 37% of NSW emissions were in the Hunter. This is despite having only 8% of the NSW population.Sixty-eight per-cent of emissions are due to electricity generation, however. Sixty-three percent of these emissions are due to consumption of electricity (so called scope 2 emissions) outside the region.Adjusting for these emissions, results in 27Mt of emissions in the Hunter, still 21% of the state's emissions. On a per-capita basis, emissions in the hunter are 61t/capita using scope 1 accounting, and adjusting for exported electricity, 34t/capital. Against a backdrop of an average Australian of 19t/capita ([National Greenhouse Gas Inventory Quarterly Update: March 2022 - DCCEEW](https://www.dcceew.gov.au/climate-change/publications/national-greenhouse-gas-inventory-quarterly-update-march-2022)).
+
+<br><br>
+
+
+## Emissions from Hunter coal exports
+
+If emissions from exported coal are included, the picture changes dramatically. In 2021, Newcastle exported 156,665,674 tonnes of coal (Port of Newcastle data). Assuming an energy content of 29GJ/t and an emission factor of 90kg CO2-eq/GJ (National Greenhouse gas factors) gives an estimated emission of 409 Mt CO2-eq, or 88% of Australia’s territorial emissions (based on Australia’s National Greenhouse Gas Inventory: March 2023).
+
+The IEA predicts global coal demand to plateau out to 2020. A decline in demand for coal in most advanced economies is being offset by a tight energy supply market (partly due to the Ukraine situation) raising prices, particularly for gas ([IEA Coal report](https://iea.blob.core.windows.net/assets/91982b4e-26dc-41d5-88b1-4c47ea436882/Coal2022.pdf)).Scenarios to 2030 by the IEA in the World Energy Outlook estimate a peak and decline to 2020 levels by 2030 for global coal demand in the stated policies scenario, a decline of 10% in the Announced Pledges Scenario, and a fall by 55% in the Net Zero Scenario.
+
+One of the arguments regarding Hunter coal is that the emissions intensity is better than global average coal, and thus it should be one of the latter producers to exit the market. Whilst global demand for coal still remains, it is likely that sufficient global supply will occur. 
+
+<br><br>
+
+
+## Emission sources in the Hunter
+
+Below is a breakdown of the greenhouse gas emissions occurring in the Hunter region courtesy of the ([NSW Net Zero Emissions Dashboard](https://www.seed.nsw.gov.au/net-zero-emissions-dashboard)).
+
+
+
+![Breakdown of Hunter direct emissions](html_figs/HunterEmissionsProduction.png)
+
+Electricity generation is clearly the elephant in the room. Net zero is not going to be achieved without decarbonising electricity supply, but what if we exclude the electricity that is exported to Sydney and other regions? That will be the exclusion of the "Scope 1" emissions from electricity gneration. We can still include the impact we have as electricity consumers, but including what are known as "Scope 2 emissions". These are emissions from electricity caused by the consumption of that electricity in the region. The elephant is a bit smaller, but we still clearly need to address emissions from electricity - either from a demand or a supply perspective. 
+
+
+<br><br>
+
+## Emission sources in the Hunter, excluding exported electricity
+
+
+![Breakdown of Hunter direct emissions excluding electricity](html_figs/HunterEmissionsProductionExclElec.png)
+
+Are we progressing with emissions reductions?
+
+<!--![Change over time](html_figs/hunter_emis.html)-->
+<iframe src="html_figs/hunter_emis.html" width="800" height="600"></iframe>
+
+
+
+
+## Demand-side approaches - the carbon footprint of the Hunter
+
+
+If a demand-side view of emissions is taken, below is the breakdown of final demand categories. 
+
+<!--![Household Carbon FOotprint of Hunter including exports](html_figs/cf_hunter_fd_cat.html)-->
+<iframe src="html_figs/cf_hunter_fd_cat.html" width="800" height="600"></iframe>
+
+Clearly, excluding exports is needed to zoom into the footprint of activities in the region/
+
+<!--![Household Carbon FOotprint of Hunter residents](html_figs/cf_hunter_fd_cat_excl_exp.html)-->
+<iframe src="html_figs/cf_hunter_fd_cat_excl_exp.html" width="800" height="600"></iframe>
+
+
+Households are responsible for almost 50%, whilst investments (mainly private) are significant (mainly construction of residential building stock)
+
+
+
+
+Below is the breakdown of Household footprint
+
+
+
+<!-- ![Household Carbon FOotprint of Hunter residents](html_figs/cf_hunter_hhld_sector.html)-->
+<iframe src="html_figs/cf_hunter_hhld_sector.html" width="800" height="600"></iframe>
+
+
+Below is the breakdown of Household footprint diasggregated
+
+
+<!-- ![Household Carbon FOotprint of Hunter residents](html_figs/cf_hunter_hhld_sector_disagg.html)-->
+<iframe src="html_figs/cf_hunter_hhld_sector_disagg.html" width="800" height="600"></iframe>
+
+
+
+
+What is driving the footprint?
+
+
+<!-- ![Carbon FOotprint Multipliers](html_figs/cf_multipliers.html)-->
+<iframe src="html_figs/cf_multipliers.html" width="800" height="600"></iframe>
+
+
+![Full supply chain accounting of emissions per job](html_figs/supply_chain_prod_per_job.png)
+
+
+
+
+So how does the Hunter have such a huge carbon footprint? The dominance of coal mining in the region is one clear reason -- even if only X% of the coal is burnt in Australia for electricity generation purposes, significant fuel and fugitive emissions occur in the mining and processing of coal to point of export. This is estimated at:
+
+### 5-year reductions
+
+### Planned reductions

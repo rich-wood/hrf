@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: ../../Dashboard/
+  output-dir: ../../Dashboard/publish/
   resources: 
     - "*.html"
 
@@ -22,13 +22,15 @@ website:
         file: housing.qmd
       - text: "MULTIPLIERS"
         file: multipliers.qmd
+      - text: "Emissions"
+        file: emissions.qmd
     
 output:
   quarto::quarto_html:
     headings:
       - "NATIONAL CONDITIONS : Headlines"
     self_contained: true
-    resource_dir: ../../Dashboard/resources/
+    resource_dir: ../../Dashboard/publish/resources/
 
 
 format:
