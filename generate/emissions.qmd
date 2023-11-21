@@ -26,10 +26,6 @@
 
 <br><br>
 
-## Progress on emissions mitigation in the Hunter
-
-<br><br>
-
 
 
 ## Supply side emissions
@@ -40,18 +36,6 @@
 The Hunter region is one of the key regions in Australia and NSW regarding GHG emissions. In 2021, 48 Mt or 37% of NSW emissions were in the Hunter. This is despite having only 8% of the NSW population.Sixty-eight per-cent of emissions are due to electricity generation, however. Sixty-three percent of these emissions are due to consumption of electricity (so called scope 2 emissions) outside the region.Adjusting for these emissions, results in 27Mt of emissions in the Hunter, still 21% of the state's emissions. On a per-capita basis, emissions in the hunter are 61t/capita using scope 1 accounting, and adjusting for exported electricity, 34t/capital. Against a backdrop of an average Australian of 19t/capita ([National Greenhouse Gas Inventory Quarterly Update: March 2022 - DCCEEW](https://www.dcceew.gov.au/climate-change/publications/national-greenhouse-gas-inventory-quarterly-update-march-2022)).
 
 <br><br>
-
-
-## Emissions from Hunter coal exports
-
-If emissions from exported coal are included, the picture changes dramatically. In 2021, Newcastle exported 156,665,674 tonnes of coal (Port of Newcastle data). Assuming an energy content of 29GJ/t and an emission factor of 90kg CO2-eq/GJ (National Greenhouse gas factors) gives an estimated emission of 409 Mt CO2-eq, or 88% of Australia’s territorial emissions (based on Australia’s National Greenhouse Gas Inventory: March 2023).
-
-The IEA predicts global coal demand to plateau out to 2020. A decline in demand for coal in most advanced economies is being offset by a tight energy supply market (partly due to the Ukraine situation) raising prices, particularly for gas ([IEA Coal report](https://iea.blob.core.windows.net/assets/91982b4e-26dc-41d5-88b1-4c47ea436882/Coal2022.pdf)).Scenarios to 2030 by the IEA in the World Energy Outlook estimate a peak and decline to 2020 levels by 2030 for global coal demand in the stated policies scenario, a decline of 10% in the Announced Pledges Scenario, and a fall by 55% in the Net Zero Scenario.
-
-One of the arguments regarding Hunter coal is that the emissions intensity is better than global average coal, and thus it should be one of the latter producers to exit the market. Whilst global demand for coal still remains, it is likely that sufficient global supply will occur. 
-
-<br><br>
-
 
 ## Emission sources in the Hunter
 
@@ -71,23 +55,36 @@ Electricity generation is clearly the elephant in the room. Net zero is not goin
 
 ![Breakdown of Hunter direct emissions excluding electricity](html_figs/HunterEmissionsProductionExclElec.png)
 
-Are we progressing with emissions reductions?
+We are seeing action on emissions reductions however, especially as some of the ageing coal fired power stations in the region are retired or reduce their capacity utilisation. 2021 saw a reduction of some 7% of Hunter emissions, mostly due to electricity generation, but reductions in fugitive emissions from fuels also declined. The region needs to continue this trend year on year in order to have a chance of getting to net-zero by 2050.
 
 <!--![Change over time](html_figs/hunter_emis.html)-->
 <iframe src="html_figs/hunter_emis.html" width="800" height="600"></iframe>
 
+
+## Emissions from Hunter coal exports
+
+Whilst emissions from electricity are the dominant source of emissions in the Hunter, these emission quantities are dwarfed by the global impact of exported coal from the Hunter.
+
+ In 2021, Newcastle exported 156,665,674 tonnes of coal (Port of Newcastle data). Assuming an energy content of 29GJ/t and an emission factor of 90kg CO2-eq/GJ (National Greenhouse gas factors) gives an estimated emission of 409 Mt CO2-eq, or 88% of Australia’s territorial emissions (based on Australia’s National Greenhouse Gas Inventory: March 2023).
+
+The IEA predicts global coal demand to plateau out to 2020. A decline in demand for coal in most advanced economies is being offset by a tight energy supply market (partly due to the Ukraine situation) raising prices, particularly for gas ([IEA Coal report](https://iea.blob.core.windows.net/assets/91982b4e-26dc-41d5-88b1-4c47ea436882/Coal2022.pdf)).Scenarios to 2030 by the IEA in the World Energy Outlook estimate a peak and decline to 2020 levels by 2030 for global coal demand in the stated policies scenario, a decline of 10% in the Announced Pledges Scenario, and a fall by 55% in the Net Zero Scenario.
+
+One of the arguments regarding Hunter coal is that the emissions intensity is better than global average coal, and thus it should be one of the latter producers to exit the market. Whilst global demand for coal still remains, it is likely that sufficient global supply will occur. 
+
+<br><br>
 
 
 
 ## Demand-side approaches - the carbon footprint of the Hunter
 
 
-If a demand-side view of emissions is taken, below is the breakdown of final demand categories. 
+If a demand-side view of emissions is taken, below is the breakdown of final demand categories. Clearly, exports are the dominant source - these emissions are the "embodied" emissions of exported goods, and are essentially the upstream (fuel and fugitive) emissions embodied in exports, principally coal. They do not include the emissions that will be released when the coal is combusted overseas.
 
 <!--![Household Carbon FOotprint of Hunter including exports](html_figs/cf_hunter_fd_cat.html)-->
 <iframe src="html_figs/cf_hunter_fd_cat.html" width="800" height="600"></iframe>
 
-Clearly, excluding exports is needed to zoom into the footprint of activities in the region/
+Taking a "consumption" approach, we exclude those impacts embodied in exports, as they will be allocated to the final users of the coal. Doing so highlights the importance of households in demand-side mitigation options. The below figure categorises the Hunter carbon footprint by categories of final demand - these are the demand-side "drivers" of economic growth as classified in the national statistics, and include houshold consumption, government consumption, private and public investments (often in building stock, but also machinery and software that is used for productive purposes in future years), Government gross fixed captial expenditure and changes in inventories (e.g. when there is an increase in stockpiling of goods in a certain year.)
+
 
 <!--![Household Carbon FOotprint of Hunter residents](html_figs/cf_hunter_fd_cat_excl_exp.html)-->
 <iframe src="html_figs/cf_hunter_fd_cat_excl_exp.html" width="800" height="600"></iframe>
@@ -96,9 +93,10 @@ Clearly, excluding exports is needed to zoom into the footprint of activities in
 Households are responsible for almost 50%, whilst investments (mainly private) are significant (mainly construction of residential building stock)
 
 
+### Household demand
 
 
-Below is the breakdown of Household footprint
+Below is the breakdown of Household footprint, firstly aggregated to 17 sectors, before breaking down to 114 sectors
 
 
 
@@ -106,29 +104,28 @@ Below is the breakdown of Household footprint
 <iframe src="html_figs/cf_hunter_hhld_sector.html" width="800" height="600"></iframe>
 
 
-Below is the breakdown of Household footprint diasggregated
+Above are aggregated results, with disaggregated results at the level of Australian input-output tables below. The disaggregated results below only show the top 15 largest sectors of the footprint.
+The dominance of electricity is evident below, and aggregated in "utilities" above. 
 
 
 <!-- ![Household Carbon FOotprint of Hunter residents](html_figs/cf_hunter_hhld_sector_disagg.html)-->
-<iframe src="html_figs/cf_hunter_hhld_sector_disagg.html" width="800" height="600"></iframe>
+<iframe src="html_figs/cf_hunter_hhld_sector_disagg.html"  width="800" height="600"></iframe>
 
 
-
-
-What is driving the footprint?
+To further understand the drivers of the footprint, we can break down overall footprint values into quantities of consumption and intensity of production. The below figure shows the "emission multipliers" which show the full supply-chain emissions per million AUD.
 
 
 <!-- ![Carbon FOotprint Multipliers](html_figs/cf_multipliers.html)-->
 <iframe src="html_figs/cf_multipliers.html" width="800" height="600"></iframe>
 
 
+
+### Industrial demand
+
+As well as the carbon footprint and potential mitigation options of households, the same thinking can be applied to industries - what are the main contributions in industrial supply-chains. The below figure calculates that metric and compares it to the level of employment in the sector - the more intensive industries have more emissions per job. 
+
 ![Full supply chain accounting of emissions per job](html_figs/supply_chain_prod_per_job.png)
 
 
 
 
-So how does the Hunter have such a huge carbon footprint? The dominance of coal mining in the region is one clear reason -- even if only X% of the coal is burnt in Australia for electricity generation purposes, significant fuel and fugitive emissions occur in the mining and processing of coal to point of export. This is estimated at:
-
-### 5-year reductions
-
-### Planned reductions
