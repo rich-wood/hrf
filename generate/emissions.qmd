@@ -112,6 +112,12 @@ The dominance of electricity is evident below, and aggregated in "utilities" abo
 <iframe src="html_figs/cf_hunter_hhld_sector_disagg.html"  width="800" height="600"></iframe>
 
 
+([The full disaggregation is available here](html_figs/cf_hunter_hhld_sector_disagg_full.html)).
+
+<!-- ![Household Carbon FOotprint of Hunter residents](html_figs/cf_hunter_hhld_sector_disagg.html)-->
+<iframe src="html_figs/cf_hunter_hhld_sector_disagg_full.html" target=_blank  width="800" height="600"></iframe>
+
+
 To further understand the drivers of the footprint, we can break down overall footprint values into quantities of consumption and intensity of production. The below figure shows the "emission multipliers" which show the full supply-chain emissions per million AUD.
 
 
