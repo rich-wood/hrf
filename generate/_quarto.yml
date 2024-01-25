@@ -38,8 +38,6 @@ format:
     theme: pulse
     css: styles.css
     toc: true
-  docx:
-    toc:true
 
 editor: visual
 
