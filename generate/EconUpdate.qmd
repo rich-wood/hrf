@@ -62,12 +62,12 @@
 ::: {style="text-align: center;"}
 # HUNTER INSIGHTS DASHBOARD
 
-## Economic Update - October 2023
+## Economic Update - February 2023
 :::
 
 The Institute for Regional Futures' Insights Dashboard tracks socio-economic conditions in the Hunter. The dashboard is based on the Hunter Research Foundation Centre's databank collected over 60 years, the most comprehensive collection of any region in Australia.
 
-This new dashboard of economic updates is designed to give decision-makers in government, industry and the community the latest data on the Hunter’s performance across key indicators. The dashboard draws upon national and regional data sources to deliver insights into the Hunter region. These updates will be provided three times per year, in addition to the [Hunter Insight Series](https://www.newcastle.edu.au/research/centre/regional-futures/hunter-insight-series).
+This dashboard of economic updates is designed to give decision-makers in government, industry and the community the latest data on the Hunter’s performance across key indicators. The dashboard draws upon national and regional data sources to deliver insights into the Hunter region. These updates will be provided three times per year, in addition to the [Hunter Insight Series](https://www.newcastle.edu.au/research/centre/regional-futures/hunter-insight-series). This release is the second release in this new format.
 
 The dashboard is a snapshot of the total data collected by the Institute for Regional Futures. For more information, please contact [irf\@newcastle.edu.au](irf@newcastle.edu.au).
 
@@ -78,15 +78,15 @@ The dashboard is a snapshot of the total data collected by the Institute for Reg
 
 ## International and national conditions
 
--   National: Economic growth, measured through the Gross Domestic Product, has maintained a quarterly increase of 0.4%, largely driven by increased public capital investments, capping off a 2.1% increase over the last 12 months.
--   International: A 4.3% rise in exports, has offset a 0.7% increase in imports for the last quarter - both still showing continued strong growth post-COVID.
--   National: Consumer Price Index is still rising, but down to +0.8% in the March quarter. Business conditions are strong and upward trending, whilst business confidence is below long-run averages.
+-   National: Economic growth, measured through the Gross Domestic Product, has maintained a quarterly increase of 0.2%, capping off a 2.1% increase over the last 12 months.
+-   International: A 0.7% fall in exports, combined with a 2.1% increase in imports led to a further decline in terms of trade for the last quarter. 
+-   National: Consumer Price Index is still rising, with a +1.2% increase in the September quarter. Construction costs have started to plateau. Business conditions are still upward trending although not as strong as 2022. Latest data shows business confidence decreasing significantly.
 
 ## Hunter conditions
 
 -   Hunter labour market (employment): 11,500 jobs added in the first six months of 2023. Latest quarter shows growth in employment in public services and consumer facing sectors, and declines in agriculture, mining, manufacturing, and utilities.
 -   Hunter labour market (unemployment): The unemployment rate continues to drop to 2.4% in July 2023. The level is at record lows.
--   Hunter housing market: Prices in the Hunter remain mixed, with declines in some LGAs offsetting continued increases in others. Overall median house prices are down 2% for the first quarter of 2023. Rental prices are showing the first signs of peaking, with second quarter results ranging from -1.5% to +6.5% across the Hunter LGAs.
+-   Hunter housing market: Prices in the Hunter remain mixed, with evidence of price rises of circa 1% in the Greater Newcastle area in the second quarter of 2023. In the first half of 2023, most Hunter LGAs saw modest price rises, but exceptions were evident. Rental prices are showing a return to growth for most Hunter LGAs.
 
 ## Contents
 
@@ -108,23 +108,24 @@ The dashboard is a snapshot of the total data collected by the Institute for Reg
 
 ## National economy {#national-economy}
 
-**Trends -** After the swings of COVID during 2022, the national economy returned to a more normal and targeted level of growth of around 2% per annum.
+**Trends -** The national economy has continued recent trends of levels of growth of circa 2% per annum, but a per-capita decline of 0.5% per annum.
 
-**Latest -** The latest data points show a 0.4% growth for each of the first two quarters of 2023, down from a 0.7% growth for the last quarter of 2022.
+**Latest -** The latest data point show a 0.2% growth for the third quarter of 2023, down from a 0.4% growth for the second quarter of 2023.
 
 <iframe src="html_figs/gdp_annual.html" width="800" height="600">
 
 </iframe>
 
-At the national level, ABS data shows a quarterly rise in GDP of 0.4% for the second quarter of 2023, continuing previous quarter's trend. GDP per capita fell 0.3% due to an uptick in migration post-COVID. The [ABS Australian National Accounts: National Income, Expenditure and Product](https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/latest-release) highlight the following points:
+At the national level, ABS data shows a quarterly rise in GDP of 0.2% for the third quarter of 2023, continuing the previous quarter's trend and giving a 12 month rise of 2.1% (chain volume measures). GDP per capita fell 0.5% due to the continued uptick in migration post-COVID. The [ABS Australian National Accounts: National Income, Expenditure and Product, September release](https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/sep-2023) highlight the following points:
 
--   Domestic demand has remained strong and been a primary upward driver of growth, providing a 0.7% increase in the quarter.
--   Capital investment was the strongest contributor to domestic demand, providing a 0.5% point contribution to GDP growth.
--   Public investment increased by 8.2%. New machinery and equipment including motor vehicles was the biggest contributor.
--   Consumption expenditure had a subdued 0.1% impact on GDP. There is an increasing shift away from discretionary expenditure to essential goods and services.
--   Net trade was an upward driver this quarter due to exports increasing faster than imports. There was a 4.3% rise in exports, offsetting a 0.7% increase in imports. This was the opposite case in the previous quarter.
+-   Domestic demand has remained strong and been a primary upward driver of growth, providing a 0.5% increase in the quarter.
+-   Government expenditure and capital investment both contributed a 0.2% point contribution to GDP growth. Changes in inventories, principally mining inventories, contributed 0.4%.
+-   Net trade was the largest drag on GDP growth, detracting 0.6% from GDP. There was a 0.7% fall in exports, offsetting a 2.1% increase in imports. 
+-   Household spending was flat in the third quarter in chain volume measures, capping a 0.4% for the whole year.
+-   Compensation of employees rose 2.6% due to tightness in the labour market and consignant wage growth.
+-   The household saving to income ratio has declined to 1.1%, the lowest level since December 2007.
 
-Prices of traded commodities, especially rural goods, liquified natural gas and coal, have been falling is having a large impact on profits for the mining industry. Domestic prices have been rising strongly, mainly due to a tight labour market, fuelling price increases in services. (see [ABS for more info](https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/latest-release))
+Prices of key export commodities, combined with international inventories was mostly responsible for the decline in exports, whilst oil prices led to increases in import prices for the quarter. See [ABS for more info](https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/sep-2023).
 
 <iframe src="html_figs/gdp_quarter.html" width="800" height="600">
 
@@ -141,19 +142,32 @@ The [NAB Group Economics](https://business.nab.com.au/author/nab-group-economic/
 <iframe src="html_figs/NAB_business.html" width="800" height="600">
 
 </iframe>
+
 [Data source: [NAB Group Economics](https://business.nab.com.au/author/nab-group-economic/)]{style="font-size: small;"}
 
 ## Household spending {#household-spending}
 
-The ABS [Monthly Household Spending Indicator](https://www.abs.gov.au/statistics/economy/finance/monthly-household-spending-indicator/aug-2023) from August 2023 for New South Wales indicates:
+The ABS [Monthly Household Spending Indicator](https://www.abs.gov.au/statistics/economy/finance/monthly-household-spending-indicator/nov-2023) from November 2023 for New South Wales indicates:
 
--   An increase in household spending of +2.9% compared to August 2022 in current prices.
--   An increase in spending on services of +6.4% and a decrease on goods of -1.0% since August 2022.
--   An increase in non-discretionary expenditure of 7.2% with a fall for discretionary expenditure of -1.6%.
+-   An increase in household spending of +2.2% compared to November 2022 in current prices.
+-   An increase in spending on services of +5.6% and a decrease on goods of -1.1% since November 2022, continuing previous trends.
+-   An increase in non-discretionary expenditure of 5.6% with a fall for discretionary expenditure of -1.1%, also continuing previous trends.
 
-Prices have stabilised compared to the large increases seen in the previous 12-24 months. In the July quarter, the [consumer price index](https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/jun-quarter-2023) rose 0.8%, topping off a 12-month rise of 6%. This is down from a peak of near 8% in December 2022. While previously food and electricity prices drove the major overall increase in the index, rents and international holidays are now the primary drivers.
+## Prices {#household-prices}
 
-<hr style="border:1.5px solid black">
+In the September quarter, the [consumer price index](https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/jun-quarter-2023) rose 1.2%, topping off a 12-month rise of 5.4%. This is down from a peak of near 8% in December 2022, but still well above long-term averages. Automotive fuel, electricity, house purchases and rents have been the main drivers.
+
+The ABS publish specific price data on housing related expenses to give better insights (at the national level) about the price movements of purchases, rents and other expenses. Rents and natural gas has seen the largest price increases. Electricity costs have also increased circa 25% since the low points of 2021.
+
+<iframe src="html_figs/cpi_housing.html" width="800" height="600">
+
+</iframe>
+
+Rising costs of construction (for both private and public housing) has been of particular interest due to the elevated material costs and rising labour costs. At the same time, there is significant interest in addressing the shortfall in affordable housing. The construction price index (data for Sydney) shows the rapid rise in costs since January 2021 have started to peak, with levels stabilising nearly 40 percentage points above pre-COVID levels.
+
+<iframe src="html_figs/construction_ppi.html" width="800" height="600">
+
+</iframe>
 
 # Hunter {#hunter}
 
@@ -171,8 +185,7 @@ At the state level, part-time growth was much more moderated, dropping from an a
 
 </iframe>
 
-[Data source: [ABS Labour Force, Australia,Detailed](https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/aug-2023)]{style="font-size: small;"}
-[[Data in tabular format available here.](html_figs/employment_hunter_monthly_tab.html)]{style="font-size: small;"}
+[Data source: [ABS Labour Force, Australia,Detailed](https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/aug-2023)]{style="font-size: small;"} [[Data in tabular format available here.](html_figs/employment_hunter_monthly_tab.html)]{style="font-size: small;"}
 
 ## Unemployment {#unemployment}
 
@@ -231,11 +244,8 @@ The last 3 months of data (Feb - May 2023) present a mixed picture, with earlier
 ```
 [Data source: [NSW Govt Rent and Sales Report](https://www.facs.nsw.gov.au/resources/statistics/rent-and-sales/dashboard)]{style="font-size: small;"}
 
-The data currently paints a mixed picture on housing prices across the region. The big increases seen post COVID have only started to recede in some LGAs. Hunter median prices fell by 2.2% in the second half of 2022 and another 2% in the first quarter of 2023. Initial data provided for the second and third quarter tend to support a further decline in line with this trend.
+The latest data shows the median price of housing in the Hunter starting to increase again, with a 1% increase from March to June 2023 in the Greater Newcastle Area (see [NSW Govt Rent and Sales Report](https://www.facs.nsw.gov.au/resources/statistics/rent-and-sales/dashboard)). All LGAs have maintained significantly higher prices than pre-COVID, but on a value basis still maintain a median price below NSW averages. Price increases in the 6 months to June 2023 are evident in Singleton, Maitland, Dungog, Cessnock, Port Stephens, Lake Macquarie and Newcastle. Upper Hunter Shire, Muswellbrook and Mid-Coast saw declines. 
 
-The fall contrasts sharply with the region's yearly growth rate of over 20% per annum in 2021. Falls were led by the Port Stephens LGA, where house prices fell 4.3 per cent over the year, although a rebound is now visible. In Newcastle and Lake Macquarie, prices fell by 5% over the year, with falls of 3% in Newcastle for the last half-year. Singleton saw a drop of 16% in the last quarter of last year, but this is offsetting a spike in mid-2022 resulting in a +6% increase over 12 months.
-
-Among Hunter LGAs, the Upper Hunter showed the largest price increases of 13% in the last 12 months. Muswellbrook is the only LGA that is not yet recording declines in house prices over the preceding 24 months. Prices here have seen growth of 27% in 2011 and 14% in 2022.
 
 <iframe src="html_figs/house_prices_last_quart_facs.html" width="800" height="600">
 
@@ -245,9 +255,7 @@ Among Hunter LGAs, the Upper Hunter showed the largest price increases of 13% in
 
 ### Rental prices {#rental-prices}
 
-Rental prices may have just started to peak, with price rises reflecting those that have been seen in house sales for some time. The acceleration since 2021 is still high, with most Hunter LGAs seeing faster rises than Sydney or NSW.
-
-The data below is for the median weekly rent for 3-bedroom stand-alone houses. Rental prices have tempered some of their increases. For example, the 12 months to March showed increases in the range of 14-26% across LGAs in the region whereas the most recent quarter (to June 2023) has seen decreases in some LGAs to give 12 months to June result of 1-6% increase. Newcastle and Port Stephens have seen the highest rises over this time.
+Rental prices appear to be maintaining their increases. A potential peak in mid-2023 does not appear to be maintained in the 3rd-quarter data. The data below is for the median weekly rent for 3-bedroom stand-alone houses. The price index for rent shows a strongly upward trending signal for all LGAs.
 
 <p style="display: flex; justify-content: center;">
 
@@ -283,19 +291,36 @@ Indexed
 ```
 [Data source: [NSW Govt Rent and Sales Report](https://www.facs.nsw.gov.au/resources/statistics/rent-and-sales/dashboard). Data indexed to start 2009.]{style="font-size: small;"}
 
-According to the last period of data, the Hunter is still experiencing price increases that are outstripping the state and Greater Sydney median for most LGAs. The data below is for the median weekly rent for 3-bedroom stand-alone houses in the 6 months to June 2023. No data point is reported for Dungog and the Upper Hunter Shire due to low volumes of rentals in the last period. Singleton has had the largest increase with a 7% price increase in 6 months.
-
-The NSW median price increase was 0%, whilst Greater Sydney had an increase of around 2% over the 6 months. However, rent increases have abated. In the previous period (to March 2023), median rent increases were 13% in the Upper Hunter, 6% in Port Stephens, 5% in Maitland and 4% in Newcastle and Cessnock.
+In the 3 months to September 2023, at the LGA level, there were mixed signals. Newcastle, Lake Macquarie, Cessnock and Muswellbrook all recorded further increases in rents. Dungog has a very small rental market (not enough data was available to interpret trends in the second quarter of 2023) and saw a large decline. Smaller declines were evident in Maitland and Singleton. Upper-Hunter, Mid-Coast and Port Stephens all saw no change in median rents. Taking a volume weighted average of all new rents, the Greater Newcastle region saw an increase of 1.3% in the last quarter. Greater Sydney had an increase of around 5% in the September quarter.
 
 <iframe src="html_figs/rentalprices_last_quart.html" width="800" height="600">
 
 </iframe>
+
 [Data source: [NSW Govt Rent and Sales Report](https://www.facs.nsw.gov.au/resources/statistics/rent-and-sales/dashboard)]{style="font-size: small;"}
+
+## House prices to Annual Rent ratio
+
+The ratio of house prices to annual rent is an indicator of affordability of rents vs purchases, but also used by investors to determine whether returns on investments are high. The figure below shows the ratio of house price for a median 3 bedroom house to the rental price. Internationally, a value of "20" is a common baseline, and Australia tracks well above this number (reflecting the relatively high price of housing purchases). The Hunter performs better on this indicator compared to the whole of NSW. The big impacts of COVID in 2021-22 in house prices were offset by flat or declining prices in 2022-2023 coupled with increased rents. Latest data shows a mixed signal across the region. 
+
+<iframe src="html_figs/sales_rents_ratio.html" width="800" height="580">
+
+</iframe>
+
+
+
+## Building approvals
+
+The number of building approvals by type since 2016 for the whole of the Hunter is shown below. The predominant development is still housing, although number of approvals have been declining from a peak of 4000 in 2021 to just over 2025 in 2023.
+
+<iframe src="html_figs/building_type_hunter.html" width="800" height="600">
+
+</iframe>
+
 
 ------------------------------------------------------------------------
 
-For more detail on the Hunter Insights Dashboard, please contact the [Institute for Regional Futures](IRF@newcastle.edu.au) 
-
+For more detail on the Hunter Insights Dashboard, please contact the [Institute for Regional Futures](IRF@newcastle.edu.au)
 
 ------------------------------------------------------------------------
 
@@ -303,10 +328,10 @@ For more detail on the Hunter Insights Dashboard, please contact the [Institute 
 
 ------------------------------------------------------------------------
 
-Suggested citation: Institute for Regional Futures. “Hunter Insights Dashboard, Economic Update – October 2023.” University of Newcastle. October 2023. URL.
+Suggested citation: Institute for Regional Futures. “Hunter Insights Dashboard, Economic Update – February 2024.” University of Newcastle. February 2024. URL.
 
 ------------------------------------------------------------------------
 
-© The University of Newcastle 2023. Apart from any use as permitted under the Copyright Act no part may be reproduced by any process without the permission of the publishers.
+© The University of Newcastle 2024. Apart from any use as permitted under the Copyright Act no part may be reproduced by any process without the permission of the publishers.
 
 Disclaimer: The information contained herein is believed to be reliable and accurate. However, no guarantee is given as to its accuracy or reliability, and no responsibility or liability for any information, opinions, or commentary contained herein, or for any consequences of its use, will be accepted by the University, or by any person involved in the preparation of this report.
