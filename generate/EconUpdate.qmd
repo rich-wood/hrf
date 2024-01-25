@@ -121,8 +121,8 @@ At the national level, Australian Bureau of Statistics (ABS) data shows a quarte
 -   Domestic demand has remained strong and been a primary upward driver of growth, providing a 0.5% increase in the quarter.
 -   Government expenditure and capital investment both contributed 0.2% points to GDP growth. Changes in inventories, principally mining inventories, contributed 0.4%.
 -   Net trade was the largest drag on GDP growth, detracting 0.6% from GDP. There was a 0.7% fall in exports, offsetting a 2.1% increase in imports. 
--   Household spending was flat in the third quarter in chain volume measures, capping a 0.4% for the whole year.
--   Compensation of employees rose 2.6% due to tightness in the labour market and consignant wage growth.
+-   Household spending was flat in the third quarter in chain volume measures, capping a 0.4% increase for the whole year.
+-   Compensation of employees rose 2.6% due to tightness in the labour market and resultant wage growth.
 -   The household saving to income ratio has declined to 1.1%, the lowest level since December 2007.
 
 Prices of key export commodities, combined with international inventories was mostly responsible for the decline in exports, whilst oil prices led to increases in import prices for the quarter. See [ABS for more info](https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/sep-2023).
@@ -133,11 +133,10 @@ Prices of key export commodities, combined with international inventories was mo
 
 ## Business performance {#business-performance}
 
-The [NAB Group Economics](https://business.nab.com.au/author/nab-group-economic/) update for August 2023 shows:
+The [NAB Group Economics](https://business.nab.com.au/author/nab-group-economic/) update for December 2023 shows:
 
--   Business conditions rose in August both for NSW and Australia. While down from earlier peaks, resilience was maintained throughout the middle of the year. Trading conditions, profitability and employment conditions also rose.
--   Business conditions at both state and national levels are measuring above long-run averages. Capacity utilisation was above 85%, reflecting a tight balance between supply and demand.
--   Business confidence measures are more mixed. While both state and national levels have recovered from negative values they both remain well below long-run averages. Of relevance for the Hunter is the marked change in business confidence in the mining sector from high positive values earlier in the year to negative values in the last update. Manufacturing, construction, transport, and utilities sectors are still in positive territory. The retail sector is the largest negative weight on business confidence, and part of the result is due to clearing of backlogs. This result also applied to sales and forward orders.
+-   Business conditions declined slightly in the end of 2023 both for NSW and Australia. While down from earlier peaks, the trend lines are still above long-term averages. Declines in conditions were led by manufacturing and construction and were a result of declines in trading conditions and employment indicators.
+-   Business confidence measures are more mixed. Both state and national levels saw a large dip in November followed by a recovery in December 2023 to end close to zero. The indicators are both remain well below long-run averages. 
 
 <iframe src="html_figs/NAB_business.html" width="800" height="600">
 
@@ -155,7 +154,7 @@ The ABS [Monthly Household Spending Indicator](https://www.abs.gov.au/statistics
 
 ## Prices {#household-prices}
 
-The [consumer price index](https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/monthly-consumer-price-index-indicator/nov-2023) rose 4.3% in the 12 months to November 2023. This is down from a peak of over 8% in December 2022, but still well above long-term averages.  Housing (+6.6%), food and non-alcoholic beverages (+4.6%), insurance and financial services (+8.8%) and alcohol and tobacco (+6.4%) have been the main drivers. The latest data for November 2023 shows a tapering in transport, recreation and food and non-alcoholic beverage prices. Price increases in services are starting to overtake the large prices seen in good in the post-COVID years. In terms of international trade, the prices of tradeable goods is now declining significantly faster than average.
+The [consumer price index](https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/monthly-consumer-price-index-indicator/nov-2023) rose 4.3% in the 12 months to November 2023. This is down from a peak of over 8% in December 2022, but still well above long-term averages.  Housing (+6.6%), food and non-alcoholic beverages (+4.6%), insurance and financial services (+8.8%) and alcohol and tobacco (+6.4%) have been the main drivers. The latest data for November 2023 shows a tapering in transport, recreation and food and non-alcoholic beverage prices. Price increases in services are starting to overtake the large prices seen in good in the post-COVID years. In terms of international trade, the prices of tradeable goods are now declining significantly faster than average.
 
 <iframe src="html_figs/cpi_allgroups.html" width="800" height="600">
 
@@ -188,7 +187,7 @@ The large increases in the number of jobs in the Hunter region through 2022 and 
 
 </iframe>
 
-[Data source: [ABS Labour Force, Australia,Detailed](https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/aug-2023)]{style="font-size: small;"} [[Data in tabular format available here.](html_figs/employment_hunter_monthly_tab.html)]{style="font-size: small;"}
+[Data source: [ABS Labour Force, Australia, Detailed](https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/aug-2023)]{style="font-size: small;"} [[Data in tabular format available here.](html_figs/employment_hunter_monthly_tab.html)]{style="font-size: small;"}
 
 ## Unemployment {#unemployment}
 
@@ -196,7 +195,7 @@ The large increases in the number of jobs in the Hunter region through 2022 and 
 
 </iframe>
 
-[Data source: [ABS Labour Force, Australia,Detailed](https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/aug-2023)]{style="font-size: small;"}
+[Data source: [ABS Labour Force, Australia, Detailed](https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/aug-2023)]{style="font-size: small;"}
 
 
 Interestingly, whilst the number of jobs has decreased in recent months in the Hunter region, this is not reflected in an increase in unemployment. The latest data for end of 2023 shows a lower rate of unemployment than September 2023, with the Hunter recording an unemployment rate of 2.8% in December 2023, Newcastle and Lake Macquarie a rate of 2.5%, the rest of the Hunter a rate of 3.1% and NSW a rate of 3.3%. These rates compare to a notional figure of circa 4.5% for the 'non-accelerating inflation rate of unemployment' or [NAIRU](https://www.rba.gov.au/speeches/2023/sp-dg-2023-06-20.html). Unemployment rates far away from the NAIRU are expected to help fuel wages growth and inflation. Note that the values expressed here are with a 3-month moving average.
@@ -206,7 +205,7 @@ Interestingly, whilst the number of jobs has decreased in recent months in the H
 
 </iframe>
 
-[Data source: [ABS Labour Force, Australia,Detailed](https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/aug-2023)]{style="font-size: small;"}
+[Data source: [ABS Labour Force, Australia, Detailed](https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/aug-2023)]{style="font-size: small;"}
 
 ## Employment - by industry {#employment---by-industry}
 
@@ -216,7 +215,7 @@ The last half of 2023 saw further declines in employment in some of the traditio
 
 </iframe>
 
-[Data source: [ABS Labour Force, Australia,Detailed](https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/aug-2023)]{style="font-size: small;"}
+[Data source: [ABS Labour Force, Australia, Detailed](https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/aug-2023)]{style="font-size: small;"}
 
 ## House prices {#house-prices}
 
@@ -294,7 +293,7 @@ In the 3 months to September 2023, at the LGA level, there were mixed signals. N
 
 ## House prices to annual rent ratio
 
-The ratio of house prices to annual rent is an indicator of affordability of rents vs purchases, but is also used by investors to determine whether returns on investments are high. The figure below shows the ratio of house price for a median 3 bedroom house to the rental price. Internationally, a value of 20 is a common baseline, and Australia tracks well above this number (reflecting the relatively high price of housing purchases). The Hunter performs better on this indicator compared to the whole of NSW. The big impacts of COVID in 2021-22 in house prices were offset by flat or declining prices in 2022-2023 coupled with increased rents. Latest data shows a mixed signal across the region. 
+The ratio of house prices to annual rent is an indicator of affordability of rents vs purchases and is also used by investors to determine whether returns on investments are high. The figure below shows the ratio of house price for a median 3 bedroom house to the rental price. Internationally, a value of 20 is a common baseline, and Australia tracks well above this number (reflecting the relatively high price of housing purchases). The Hunter performs better on this indicator compared to the whole of NSW. The big impacts of COVID in 2021-22 in house prices were offset by flat or declining prices in 2022-2023 coupled with increased rents. Latest data shows a mixed signal across the region. 
 
 <iframe src="html_figs/sales_rents_ratio.html" width="800" height="580">
 
