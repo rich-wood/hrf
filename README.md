@@ -1,6 +1,6 @@
-# hrf - https://rich-wood.github.io/hrf/
+# Draft Hunter Research Foundation Dashboards
 
-https://rich-wood.github.io/hrf/
+https://rich-wood.github.io/hrf/publish/
 
 Generate html files, using quarto in the folder ./generate/
 All edits happen in the ./generate/ folder
