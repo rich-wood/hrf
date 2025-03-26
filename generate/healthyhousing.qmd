@@ -6,7 +6,7 @@ editor:
     wrap: 72
 ---
 
-![](slides_housing/Slide1.PNG)
+![](slides_housing1/slide1.png)
 
 ::: container
 Delivering more affordable, quality housing is one of Australia's most
@@ -63,7 +63,7 @@ closely mirrored the discourse here in Australia. The enormity of the
 changes being proposed, both here and abroad, have been genuinely
 unprecedented.
 
-![](slides_housing/Slide2.PNG)
+![](slides_housing1/slide2.png)
 
 ## History repeating
 
@@ -82,7 +82,7 @@ crisis with a number of familiar and recurring themes raised, including:
 
 -   long waitlists for public housing."
 
-![](slides_housing/Slide3.PNG)
+![](slides_housing1/slide3.png)
 
 ## Where to start?
 
@@ -94,7 +94,7 @@ better outcomes, it's worth pausing for a minute to check whether the
 system we're all working away tirelessly within is setting us up for
 success.
 
-![](slides_housing/slide4.PNG)
+![](slides_housing1/slide4.png)
 
 ## NSW Planning Framework
 
@@ -108,7 +108,7 @@ That's because this system is linear, complex, and relies on several
 interdependencies. We must ask ourselves whether this sets us up for the
 rapid responses to the housing crises that we urgently need?
 
-![](slides_housing/Slide5.PNG)
+![](slides_housing1/slide5.png)
 
 ## Key Truths
 
@@ -126,7 +126,7 @@ Three fundamental truths must be acknowledged for effective planning:
     part of the solution; adequate infrastructure and systemic support
     are equally crucial.
 
-![](slides_housing/Slide6.PNG)
+![](slides_housing1/slide6.png)
 
 ## Projections aren't targets
 
@@ -149,7 +149,7 @@ how close we're tracking against what was projected based on past
 performance. This indicates that it is entirely possible that we could
 achieve higher growth levels than have previously been projected.
 
-![](slides_housing/Slide8.PNG)
+![](slides_housing1/slide8.png)
 
 ## NSW Implied dwellings
 
@@ -177,7 +177,7 @@ need anywhere in our planning system -- the updated projections each
 year keep us looking forward to future need, not historic needs. So, our
 'in practice' target is never giving us the full picture.
 
-![](slides_housing/Slide9.PNG)
+![](slides_housing1/slide9.png)
 
 The next three slides help illustrate what that oversight means in the
 Hunter's 'lived experience'.
@@ -192,7 +192,7 @@ up an almost touched that 3% benchmark in mid-2015, the reality is that
 our region has an entire generation of people who have never experienced
 what it is like to live in a fair and accessible housing market.
 
-![](slides_housing/Slide10.PNG)
+![](slides_housing1/slide10.png)
 
 ## Homelessness
 
@@ -203,7 +203,7 @@ has almost doubled in the last 20 years. And, while the national and
 state levels reduced in the last census period, our homelessness rates
 continued to grow.
 
-![](slides_housing/Slide11.PNG)
+![](slides_housing1/slide11.png)
 
 ## Overcrowding
 
@@ -224,7 +224,7 @@ This next slide shows the spatial inequalities emerging across the
 Region, with Newcastle, Lake Macquarie, MidCoast, and Cessnock showing
 the highest concentrations.
 
-![](slides_housing/Slide12.PNG)
+![](slides_housing1/slide12.png)
 
 **We urgently need to move beyond relying on projections as our 'in
 practice' housing target and instead develop more robust planning
@@ -267,7 +267,7 @@ including guidelines from the UK and housing studies by SGS here in
 Australia to try and re-imagine a different spatial framework that might
 help us understand housing market needs more robustly.
 
-![](slides_housing/Slide14.PNG)
+![](slides_housing1/slide14.png)
 
 ## Case for housing market areas
 
@@ -307,7 +307,7 @@ and the white lines are local government area boundaries. This modelling
 showed time and again that in reality, people's choice about where to
 live doesn't stop at LGA boundaries.
 
-![](slides_housing/Slide15.PNG)
+![](slides_housing1/slide15.png)
 
 The place-based solutions we urgently need to address the housing crises
 must be grounded in action, not just aspiration. Taking a housing market
@@ -364,7 +364,7 @@ which is that we aren't planning in the right way to truly deliver
 place-based solutions. We don't even know the full picture of what we
 need to operationalise.
 
-![](slides_housing/Slide17.PNG)
+![](slides_housing1/slide17.png)
 
 So, does it make sense to push billions of dollars of public sector
 money through this system and expect to achieve the results we need?
@@ -382,7 +382,7 @@ money through this system and expect to achieve the results we need?
     Housing Conference's harrowing scope to current crisis in the
     housing sector.
 
-![](slides_housing/Slide19.PNG)
+![](slides_housing1/slide19.png)
 
 ------------------------------------------------------------------------
 
