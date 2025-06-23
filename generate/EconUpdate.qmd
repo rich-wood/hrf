@@ -13,3 +13,4 @@ This is the record of Economic updates since 2023.
 [Economic Update (October 2024)](2024_October/EconUpdate.html)
 
 [Economic Update (July 2025)](2025_July/EconUpdate.html)
+
