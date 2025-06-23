@@ -1,0 +1,425 @@
+```{=html}
+<style>
+    h1, h2, h3, h4, h5, h6 {
+        color: darkblue;
+        text-align: center;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333333;
+      margin: 0;
+      padding: 20px;
+      text-align: justify;
+    }
+    h2 {
+      text-align: center;
+      margin-top: 40px;
+      color: darkblue;
+      border-bottom: 2px solid #444;
+    }
+    .toc {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%); /* Move the element up by half its own height */
+    left: 0;
+    width: 200px;
+    padding: 10px;
+    margin-right: 20px; /* Add margin to the right side */
+    background-color: white;
+    border-right: 2px solid #ddd;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+    line-height: 1.5;
+    }
+    .content {
+    margin-left: 20px; /* Adjust the value to match the width of the table of contents */
+    }
+
+    .toc ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .toc li {
+        margin-bottom: 5px;
+    }
+
+    .toc a {
+        color: darkblue;
+        text-decoration: none;
+    }
+
+    .toc a:hover {
+        text-decoration: underline;
+    }
+
+</style>
+```
+# 
+
+::: {style="text-align: center;"}
+# HUNTER INSIGHT DASHBOARD
+
+## Economic Update - October 2024
+:::
+
+The University of Newcastle's Institute for Regional Futures' Insight Dashboard tracks socio-economic conditions in the Hunter. The dashboard is based on the Hunter Research Foundation Centre's databank collected over 60 years, the most comprehensive collection for any region in Australia.
+
+This dashboard of economic updates is designed to give decision-makers in government, industry and the community the latest data on the Hunter’s performance across key indicators. The dashboard draws upon national and regional data sources to deliver insights about the Hunter region. These updates will be provided throughout the year, in addition to the [Hunter Insight Series](https://www.newcastle.edu.au/research/centre/regional-futures/hunter-insight-series). This release is the fourth in this format. For the first time, the dashboard also provides insights into regional greenhouse gas emissions.
+
+The dashboard is a snapshot of just some of the total data collected by the Institute for Regional Futures. For more information, please contact [irf\@newcastle.edu.au](irf@newcastle.edu.au).
+
+::: {style="text-align: center; display: flex; flex-wrap: wrap; justify-content: center; align-items: center;"}
+| <img src="html_figs/GDP.svg" alt="GDP" style="max-width:270PX; height:240PX;"/> <img src="html_figs/Trade.svg" alt="Trade" style="max-width:270PX; height:240PX;"/> <img src="html_figs/CPI.svg" alt="CPI" style="max-width:270PX; height:240PX;"/>
+| <img src="html_figs/Employment.svg" alt="Employment" style="max-width:270PX; height:240PX;"/> <img src="html_figs/Unemployment.svg" alt="Unemployment" style="max-width:270PX; height:240PX;"/> <img src="html_figs/Housing.svg" alt="House Prices" style="max-width:270PX; height:240PX;"/>
+:::
+
+## International and national conditions
+
+-   <b>National:</b> Economic growth, measured through Gross Domestic Product, maintained previous growth rates of +0.2% per quarter throughout 2024. Business conditions are fluctuating, but in line with long-term averages. Business confidence has both fallen below long-term averages.
+-   <b>International:</b> Terms of trade fell 3%, mainly due to declining export prices of key mining commodities.
+-   <b>Household:</b> Price rises measured through the Consumer Price Index (CPI) slowed further, down to a 12-month CPI of +2.7%. 
+
+## Hunter conditions
+
+-   <b>Hunter labour market (employment):</b> Employment in the Hunter region has declined in recent months, reversing the increase in early 2024. 11,800 full-time jobs were shed in the last quarter (to August 2024). Latest quarterly data shows growth in employment in health services and construction, with declines in mining, manufacturing, public administration, administrative services and education.
+-   <b>Hunter labour market (unemployment):</b> The unemployment rate is still low, with a rate of 3.7% in August 2024. The Hunter unemployment rate is below NSW averages, with even lower unemployment rates in Newcastle and Lake Macquarie.
+-   <b>Hunter housing market:</b> Prices in the Hunter are mixed, with price rises of 1.3% on a median basis for sales in the Greater Newcastle area in the first quarter of 2024. Rental prices are continuing their upward trajectory for most Hunter LGAs.
+
+## Contents
+
+::: {style="margin-left: 2cm;"}
+[National](#national-economy)
+
+1.  [Gross Domestic Product (GDP)](#national-economy)
+2.  [Business performance](#business-performance)
+3.  [Household spending](#household-spending)
+
+[Hunter](#hunter)
+
+1.  [Employment](#employment)
+2.  [Unemployment](#unemployment)
+3.  [Employment - by industry](#employment---by-industry)
+4.  [House prices](#house-prices)
+5.  [Rental prices](#rental-prices)
+6.  [Building approvals](#building-approvals)
+
+
+[Greenhouse gas emissions](#GHG-emissions)
+
+
+:::
+
+## National economy {#national-economy}
+
+**Trends:** National economic growth is lower than long-term averages, showing a 1.0% growth rate per annum for the last year. On a per capita basis, this equates to a decline of 1.5% per annum.
+
+**Latest:** The latest data points show a 0.2% growth rate for the second quarter of 2024, in line with 0.2% growth for the previous two quarters.
+
+<iframe src="html_figs/gdp_annual.html" width="800" height="600">
+
+</iframe>
+[Data source: [Data source: ABS Australian National Accounts: National Income, Expenditure and Product.](https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/jun-2024)]{style="font-size: small;"}
+
+At the national level, Australian Bureau of Statistics (ABS) data shows a quarterly rise in Gross Domestic Product (GDP) of 0.2% for the second quarter of 2024, continuing the previous quarter's trend and giving a 12 month rise of 1.0% (chain volume measures). GDP per capita fell 1.5% driven by the high levels of immigration over the previous 12 months. The [ABS Australian National Accounts: National Income, Expenditure and Product, June release](https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/jun-2024) highlight the following points:
+
+- Household Consumption: Household consumption was weak, detracting 0.1 percentage points from GDP growth due to reduced discretionary spending. Household saving to income ratio remained at 0.6%. 
+- Government Expenditure: Government consumption contributed 0.3 percentage points to GDP growth, driven by social benefits to households.
+- Public investment fell for the third consecutive quarter (-1.4%), mainly driven by state and local government, but still remains above long-term averages.
+- Dwelling investment rose by 0.1%, primarily due to a 2.5% increase in new houses as more homes were completed.
+- Net Trade: Net trade contributed 0.2 percentage points to GDP growth, with a rise in exports (+0.5%) and a fall in imports (-0.2%). The increase in exports was primarily fueled by a boost in education-related travel services. The terms of trade fell 3.0%.
+- Mining commodity prices for iron ore and coal declined due to lower global demand. However, non-mining sectors helped mitigate these losses through increased activity and reduced operating costs, particularly in Professional, Scientific and Technical Services, as well as Manufacturing.
+
+See [ABS for more info](https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/jun-2024).
+
+<iframe src="html_figs/gdp_quarter.html" width="800" height="600">
+
+</iframe>
+[Data source: [Data source: ABS Australian National Accounts: National Income, Expenditure and Product.](https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/jun-2024)]{style="font-size: small;"}
+
+
+## Business performance {#business-performance}
+
+The [NAB Group Economics](https://business.nab.com.au/author/nab-group-economic/) update for September 2024 shows that business conditions are still fluctuating below recent trends, but remain in line with long-term averages. Confidence partially rebounded from the August dip but remains well below long-term averages. NAB finds conditions due to capacity utilization and capital expenditure remaining high, and the employment sub-index returning to above average. Forward orders are still weak, but prices appear to be abating further. 
+At an industry level, NAB reports that conditions rose notably in manufacturing (up 11pts), recreation & personal services (up 5pts), retail (up 5pts) and wholesale (up 4pts). Mining conditions have been reported to have fallen sharply, reversing the increase in August. Longer term trends point to different insights however, with long-term conditions weakest in manufacturing and retail, but positive in mining, transport & utilities, recreation & personal services, and finance, business & property.
+
+
+<iframe src="html_figs/NAB_business.html" width="800" height="600">
+
+</iframe>
+
+[Data source: [NAB Group Economics](https://business.nab.com.au/author/nab-group-economic/)]{style="font-size: small;"}
+
+## Household spending {#household-spending}
+
+The ABS [Monthly Household Spending Indicator](https://www.abs.gov.au/statistics/economy/finance/monthly-household-spending-indicator/aug-2024) from August 2024 for New South Wales indicates:
+
+-   An increase in household spending of +1.7% compared to August 2023 in current prices.
+-   An increase in spending on services of +2.7% and  on goods of +0.9% since August 2023 (current prices). Goods spending has fallen in recent months due to decreased spending on vehicles, motoring goods and food. Recent increases in services are mainly due to air and sea transport, and hospitality services.
+-   An increase in discretionary expenditure of +1.2% and an increase in non-discretionary expenditure of +2.5% (current prices) since August 2023.
+
+
+The [consumer price index](https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/monthly-consumer-price-index-indicator/aug-2024) rose 2.7% in the 12 months to August 2024 (down from 4.3% in Nov 2023), but dropped 0.3% across all groups in the one month to August 2024. The annualised CPI is down from a peak of over 8% in December 2022, but still above long-term averages.  Housing (+2.6%, compared to +6.6% in Nov 2023), food and non-alcoholic beverages (+3.4%, compared to +4.6% in Nov 2023), and alcohol and tobacco (+6.6%, compared to +6.4% in Nov 2023) have been the main drivers. Transport prices declined -1.1% over the year. Rents are still rising (up 6.8% in the previous 12 months), compared to new dwelling prices rising +5.1%. However, electricity prices have decreased -17.9% due to the launching of additional government rebates. The other main price declines were seen in automotive fuel	(-7.6%), dairy products (-0.2%) and communications (-0.2%).
+
+<iframe src="html_figs/cpi_allgroups.html" width="800" height="600">
+
+</iframe>
+
+[Data source: [ABS Monthly consumer price index indicator](https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/monthly-consumer-price-index-indicator/aug-2024/)]{style="font-size: small;"}
+
+The ABS publishes specific price data on housing related expenses to give better insights (at the national level) into the price movements of purchases, rents and other expenses.
+Rents are still rising (up 6.8% in the previous 12 months). In comparison new dwelling prices have risen 5.1%. Electricity prices have fallen 17.9%, whilst gas and other household fuels have risen 3.2%.
+
+<iframe src="html_figs/cpi_housing.html" width="800" height="600">
+
+</iframe>
+[Data source: [ABS Monthly consumer price index indicator](https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/monthly-consumer-price-index-indicator/aug-2024/)]{style="font-size: small;"}
+
+A significant current challenge for housing is the need for a reduction in costs related to construction in order to ensure an adequate supply of building for a growing population. Construction price indices show that prices have stabilised since the start of 2023, with input prices for construction in Sydney rising 0.5% in the June quarter, mainly due to material (except steel) prices.
+
+<iframe src="html_figs/construction_ppi.html" width="800" height="600">
+
+</iframe>
+[Data source: [ABS Producer Price Indexes, Australia](https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/producer-price-indexes-australia/jun-quarter-2024/)]{style="font-size: small;"}
+
+
+
+# Hunter {#hunter}
+
+<hr style="border:1.5px solid black">
+
+## Employment {#employment}
+
+The Hunter region (see below and footnotes for region definitions) has been experiencing some challenging employment trends over the past year. Some key points are:
+
+ - Overall Employment: There has been a significant decline in employment in the Hunter region, with a decrease in total full-time employment of 7.0% over the last 12 months.
+ - Monthly Changes: The last month saw a drop of 4,703 jobs, and the month before that saw a decrease of 4,222 jobs.
+ - Part-Time Employment: Part-time employment also declined by about 2.6% over the previous 12 months.
+
+In contrast, New South Wales (NSW) as a whole has seen a slight increase in employment by 0.3% over the last 12 months, with part-time employment growing by about 6.3%.  Note that for the Hunter, employment statistics are collected at the Statistical Area Level 4 (SA4), including the SA4s of ‘Hunter Valley excluding Newcastle’, and ‘Newcastle and Lake Macquarie’, but excluding the Mid-Coast LGA which is classified in the Mid North Coast SA4 region. Hence data for the Hunter Region in this section excludes the Mid-Coast LGA.
+
+<iframe src="html_figs/employment_hunter_monthly.html" width="800" height="600">
+
+</iframe>
+
+[Data source: [ABS Labour Force, Australia, Detailed](https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/aug-2024)]{style="font-size: small;"} 
+
+## Unemployment {#unemployment}
+
+<iframe src="html_figs/unemployment_hunter_monthly.html" width="800" height="600">
+
+</iframe>
+
+[Data source: [ABS Labour Force, Australia, Detailed](https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/aug-2024)]{style="font-size: small;"}
+
+
+Over the past 12 months, unemployment in the Hunter region grew from a very low rate of 2.5% to 3.7%. Youth unemployment in the Hunter region is slightly higher at 4.2%.
+In comparison, New South Wales (NSW) has an overall unemployment rate of 4.0%, with youth unemployment at 4.6%. These rates compare to a notional figure of circa 4.5% for the 'non-accelerating inflation rate of unemployment' or [NAIRU](https://www.rba.gov.au/speeches/2023/sp-dg-2023-06-20.html). Unemployment rates far away from the NAIRU are expected to help fuel wages growth and inflation. Note that the values expressed here are with a 3-month moving average.
+
+
+<iframe src="html_figs/unemployment_hunter_bar12months.html" width="800" height="600">
+
+</iframe>
+
+[Data source: [ABS Labour Force, Australia, Detailed](https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/aug-2024)]{style="font-size: small;"}
+
+## Employment - by industry {#employment---by-industry}
+
+The middle of 2024 saw declines in employment in the mining and manufacturing sector, with mining reducing 1400 full time equivalent employees (FTEs) in addition to 1600 FTEs shed in the previous quarter. In contrast, manufacturing's loss of 1800 FTEs offset the previous quarter's increase of 1500 FTEs. Agriculture, forestry and fishing and mining grew by 200 FTEs, but in response to a reduction of 2200 FTEs in the first quarter.
+Mixed results were evident in the utilities, construction and services sector, with health care growing by 2200 FTEs, maintaining strong sector growth (4700 FTEs in the previous quarter). The most significant declines were evident in utilities, retail trade, admin and support services, public admin and education.
+
+
+<iframe src="html_figs/employment_hunter_industry_change_3month.html" width="800" height="600"></iframe>
+
+
+[Data source: [ABS Labour Force, Australia, Detailed](https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/aug-2024)]{style="font-size: small;"}
+
+## House prices {#house-prices}
+
+```{=html}
+<p style="display: flex; justify-content: center;">
+    <p style="flex: 1; display: flex; justify-content: center;">
+    <button id="button11" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot1('html_figs/houseprices_facs.html')">Values</button>
+    <button id="button12" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot1('html_figs/houseprices_facs_indexed.html')">Indexed</button>
+    </p>
+</p>
+<iframe id="plotFrame1" src="html_figs/houseprices_facs_indexed.html" width="800" height="600"></iframe>
+<script type="text/javascript">
+    function loadPlot1(file) {
+        var plotFrame = document.getElementById("plotFrame1");
+        plotFrame.src = file;
+    }
+</script>
+```
+[Data source: [NSW Govt Rent and Sales Report](https://www.facs.nsw.gov.au/resources/statistics/rent-and-sales/dashboard)]{style="font-size: small;"}
+
+The latest data shows the median price of housing in the Hunter continuing recent increases, with a 1.3% increase from December 2023 to March 2024 in the Greater Newcastle Area (for the Cessnock, Lake Macquarie, Maitland, Newcastle and Port Stephens, based on the aggregate available in the [NSW Govt Rent and Sales Report](https://www.facs.nsw.gov.au/resources/statistics/rent-and-sales/dashboard) see regional explanations in the footnotes). All LGAs have maintained significantly higher median prices than pre-COVID. Most are still below NSW averages on a value basis, but Lake Macquarie median prices have now matched the NSW average for the first time. Price increases in the 6 months to March 2024 are evident in Upper Hunter Shire, Muswellbrook,  Lake Macquarie and Newcastle. Singleton saw a small decline but has a volatile median price history (with a small number of sales) over the last 12 months. Mid-coast, Maitland, Cessnock, Port Stephens, as well as Greater Sydney and median NSW all saw a zero change in median house price over the last 6 months.
+
+
+<iframe src="html_figs/house_prices_last_quart_facs.html" width="800" height="600">
+
+</iframe>
+
+[Data source: [NSW Govt Rent and Sales Report](https://www.facs.nsw.gov.au/resources/statistics/rent-and-sales/dashboard)]{style="font-size: small;"}
+
+## Rental prices {#rental-prices}
+
+For renters, there was hope that a peak in rental prices in mid-2023 may be followed by a stabilisation or decline in prices. However, for most LGAs in the Hunter, there is still a strong upward trend in prices. The data below is for the median weekly rent for 3-bedroom stand-alone houses. It is possible to see the median value by LGA, or the median values by LGA indexed to September 2010 (i.e. showing relative price increases for each LGA before and after September 2010). The latest data from the [NSW Govt Rent and Sales Report](https://www.facs.nsw.gov.au/resources/statistics/rent-and-sales/dashboard) extends to the second quarter of 2024.
+
+<p style="display: flex; justify-content: center;">
+
+<p style="flex: 1; display: flex; justify-content: center;">
+
+<button id="button21" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot2(&#39;html_figs/rentalprices_nswfacs.html&#39;)">
+
+Values
+
+</button>
+
+<button id="button22" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot2(&#39;html_figs/rentalprices_nswfacs_indexed.html&#39;)">
+
+Indexed
+
+</button>
+
+</p>
+
+</p>
+
+<iframe id="plotFrame2" src="html_figs/rentalprices_nswfacs_indexed.html" width="800" height="600">
+
+</iframe>
+
+```{=html}
+<script type="text/javascript">
+    function loadPlot2(file) {
+        var plotFrame = document.getElementById("plotFrame2");
+        plotFrame.src = file;
+    }
+</script>
+```
+
+[Data source: [NSW Govt Rent and Sales Report](https://www.facs.nsw.gov.au/resources/statistics/rent-and-sales/dashboard). Data indexed to start 2009.]{style="font-size: small;"}
+
+In the 6 months to June 2024, all LGAs showed increases or stable rent prices.  Singleton, Muswellbrook and Newcastle had stable prices, whilst Upper-Hunter, Mid-Coast, Maitland, Cessnock, Port Stephens and Lake Macquarie all recorded increases in rents. Maitland saw the largest increase, with a nearly 8% increase in the first half of 2024. In comparison, Greater Sydney had an increase of around 4.7% in the half year to June.
+
+<iframe src="html_figs/rentalprices_last_halfyear.html" width="800" height="600">
+
+</iframe>
+
+[Data source: [NSW Govt Rent and Sales Report](https://www.facs.nsw.gov.au/resources/statistics/rent-and-sales/dashboard)]{style="font-size: small;"}
+
+## House prices to annual rent ratio
+
+The ratio of house prices to annual rent has strongly declined in the last 6 months for the NSW average, continuing earlier declines first seen in 2022. These declines are mirrored for most Hunter LGAs, excluding Dungog, Port Stephens and Maitland. A decline implies that it is a more attractive time to invest in housing than previous years as rental prices have been increasing faster than house prices during the period. The figure below shows the ratio of house price for a median 3-bedroom house to the rental price. Internationally, a value of 20 is a common baseline, and Australia tracks well above this number (reflecting the relatively high price of housing purchases). The peak in house prices seen above in 2022 is also evident in the peak in the price to rent ratio (implying that the rents did not peak in the same way as house prices). 
+
+<iframe src="html_figs/sales_rents_ratio.html" width="800" height="580">
+
+</iframe>
+[Data source: [NSW Govt Rent and Sales Report](https://www.facs.nsw.gov.au/resources/statistics/rent-and-sales/dashboard)]{style="font-size: small;"}
+
+
+
+## Building approvals {#building-approvals}
+
+Despite the acknowledged need for a significant increase in housing stock, the data paints a different picture in terms of building approvals. The number of building approvals by type since 2016 for the whole of the Hunter is shown below. Data for 2024 is to date (and hence only reflects the first 8 months). Apartment approvals did increase in 2023 but remain below pre-COVID levels. Housing approvals, the dominant type of building in the region, have been on a decline since a peak of 4000 homes in 2021. Only slightly more than 3000 homes were approved last year. In comparison, the Committee for the Hunter last year called on funding for [40,000 new homes for the region](https://hunter.org.au/committee-for-the-hunter-calls-for-government-intervention-to-address-the-hunters-affordable-housing-crisis/). This data is available by Statistical Local Area 2 (SA2) level, and thus the data presented here includes SA2 areas in the Mid-Coast LGA (see comment in footnotes).
+
+<iframe src="html_figs/building_type_hunter.html" width="800" height="600">
+
+</iframe>
+[Data source: [ABS Building Approvals](https://www.abs.gov.au/statistics/industry/building-and-construction/building-approvals-australia/aug-2024)]{style="font-size: small;"}
+
+
+The geographic spread of building approvals is reflected in the below charts. The figure shows the number of building approvals by type since 2016 for the whole of the Hunter on a cumulative basis. For housing, the dominance of approvals in the outer-middle regions of the Hunter is evident, with housing approvals concentrated in the Branxton, Thornton and Morriset areas. The urban areas in Newcastle and Lake Maquarie see the concentration of apartment approvals, with few new housing approvals. The mid-density housing (semi-detached, row and terrace houses) are spread over a combination of urban areas and the outer SA2s. In 2023, there was a rise in approvals in Newcastle SA2, bucking the trend of declining approvals across the region. Most of this was due to apartments.
+
+```{=html}
+
+<!-- Row 1: Housing Type Buttons -->
+<p style="display: flex; justify-content: center;">
+    <p style="flex: 1; display: flex; justify-content: center;">
+        <button id="button21" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot('Houses', false)">Houses</button>
+        <button id="button22" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot('Apartments', false)">Apartments</button>
+        <button id="button23" style="background-color: #f2f2f2; font-size: 14px; border: 0.5px solid white" onclick="loadPlot('Semi_detached', false)">Semi-detached</button>
+    </p>
+</p>
+
+
+<!-- Figure -->
+<iframe id="plotFrame3" src="html_figs/BuildApprov_Map_2023_Houses_cumulSA2.html" width="800" height="600"></iframe>
+
+<script type="text/javascript">
+    let currentType = 'Houses'; // Default housing type
+
+    function loadPlot(figureType, isCumulative) {
+        var plotFrame = document.getElementById("plotFrame3");
+        var figureFile = `html_figs/BuildApprov_Map_2023_${figureType}`;
+        figureFile += `_cumulSA2.html`;
+        
+        // Set the source of the iframe to load the selected figure
+        plotFrame.src = figureFile;
+        currentType = figureType; // Update the current housing type
+    }
+</script>
+```
+The Institute for Regional Futures delved into the issues surrounding housing in the region at [Hunter Insight Series: Building a Healthy Housing Market](https://www.newcastle.edu.au/newsroom/featured/new-analysis-housing-need-significantly-underestimated2), held in October 2023. 
+
+<p>
+<br>
+<p>
+
+
+## Greenhouse gas emissions {#GHG-emissions}
+
+In this version of the economic update, an insight into greenhouse gas emissions in the Hunter is provided. As Australia transitions to a net-zero economy, there will be significant changes for the Hunter region. Currently there is a lag of 3 years on local-scale GHG emissions, with last available data published by the NSW Government being for 2021.
+
+In 2021, 48 Mt or 37% of NSW emissions were in the Hunter. This is despite having only 8% of the NSW population. Sixty-eight percent of emissions are due to electricity generation, however. Sixty-three percent of these emissions are due to consumption of electricity (so called scope 2 emissions) outside the region. Adjusting for these emissions, results in 27 Mt of emissions in the Hunter, still 21% of the state's emissions. 
+
+On a per-capita basis, emissions in the hunter are 61 t/capita, and adjusting for the exported electricity to other users outside the region, 34 t/capital. This is against a backdrop of an average Australian of 19 t/capita ([National Greenhouse Gas Inventory](https://www.dcceew.gov.au/climate-change/publications/national-greenhouse-gas-inventory-quarterly-update-march-2022)).
+
+Progress in emissions reductions in the region is being observed, particularly as some of the aging coal-fired power stations in the region are either being retired or reducing their capacity utilization. In 2021, Hunter emissions decreased by approximately 7%, primarily due to changes in electricity generation, with a notable decline in fugitive emissions from fuels as well.
+
+<iframe src="html_figs/hunter_emissions_progress.html" width="800" height="600">
+
+</iframe>
+
+[Data source: [NSW Net Zero Emissions Dashboard](https://datasets.seed.nsw.gov.au/dataset/nsw-regional-and-local-greenhouse-gas-emissions-2016-2019)]{style="font-size: small;"}
+
+A more detailed view of emissions by sector is provided below. In this view, for electricity, so-called "scope 2" accounting is used, where emissions due to electricity generation are assigned to the electricity customer (and thus emissions due to electricity exported from the region are not included).
+
+<iframe src="html_figs/hunter_emis_2021_sunburst_sc2.html" width="800" height="600">
+
+</iframe>
+
+[Data source: [NSW Net Zero Emissions Dashboard](https://datasets.seed.nsw.gov.au/dataset/nsw-regional-and-local-greenhouse-gas-emissions-2016-2019)]{style="font-size: small;"}
+
+
+Scope 3 GHG Emissions: Scope 3 greenhouse gas emissions are those emissions related to economic activity besides direct fuel and electricity consumption. This accounting of emissions provides a background to additional opportunities to decarbonize for industry, yet are often difficult to realise because of measurement issues and the need to involve multiple stakeholders. At the Institute for Regional Futures, the Scope 3 emissions of industrial production in the Hunter have been estimated based on a unique combination of data from the [EXIOBASE](https://exiobase.org) global MRIO model, national IO tables and local IO data from REMPLAN.
+
+The chart below shows greenhouse gas emissions by aggregated source and destination sectors in the Hunter region. Emission Sources are broken down by source sector in the colour: agriculture forestry and fishing, mining, manufacturing, electricity and other utilities, construction, services, and transport. Further detail is available upon request, with emissions broken down into supply-chains. The scope 3 emissions shown below exclude scope 1 and scope 2 emissions.
+
+Manufacturing is the largest contributor to Scope 3 Emissions in the region. The manufacturing sector’s Scope 3 emissions are close to 15 Mt of CO2-equivalent (CO2-e). Aggregate emissions are visible in the chart below, but due to the broad nature of the sector, the aggregate emissions are spread over many sources. Some key contributors to the results are the scope 3 emissions from mining sources and from indirect electricity use due to non-ferrous metal manufacturing; agricultural emissions due to meat product manufacturing; emissions of cement and lime preparation for concrete manufacturing. The IRF is providing insight into organisational scope 3 emissions in the region. Get in touch below for more information.
+
+<iframe src="html_figs/hunter_emissions_scope3.html" width="800" height="600">
+
+</iframe>
+
+
+------------------------------------------------------------------------
+
+For more detail on the Hunter Insight Dashboard please contact the [Institute for Regional Futures](IRF@newcastle.edu.au)
+
+------------------------------------------------------------------------
+
+\* The data presented here for the Hunter region includes the local government areas (LGAs) of Cessnock, Dungog, Lake Macquarie, Maitland, Mid-Coast, Muswellbrook, Newcastle, Port Stephens, Singleton and Upper Hunter. However, the ABS collects and reports data by Statistical Area which does not fully align with this definition. The Statistical Area Level 4 (SA4) classification, commonly used for reporting economic statistics includes the above LGAs in two SA4 areas comprising the Hunter Valley region but classifies the Mid-Coast LGA in the Mid North Coast SA4. At the Statistical Area Level 2 (SA2), the SA2 areas that are part of the Mid-Coast LGA (including Taree, Gloucester, Old Bar, Buladelah, Forster, Tuncurry) are included in the data presented for the Hunter. The building approval data is available at SA2 level. For housing rental and sales data, the [NSW Govt Rent and Sales Report](https://www.facs.nsw.gov.au/resources/statistics/rent-and-sales/dashboard) provides aggregate median values only for the Greater Newcastle area based on old statistical subdivisions, but which corresponds to the LGAs of Cessnock, Lake Macquarie, Maitland, Newcastle and Port Stephens. 
+
+------------------------------------------------------------------------
+
+Suggested citation: Institute for Regional Futures. “Hunter Insight Dashboard, Economic Update – October 2024.” University of Newcastle. October 2024. URL.
+
+------------------------------------------------------------------------
+
+© The University of Newcastle 2024. Apart from any use as permitted under the Copyright Act no part may be reproduced by any process without the permission of the publishers.
+
+Disclaimer: The information contained herein is believed to be reliable and accurate. However, no guarantee is given as to its accuracy or reliability, and no responsibility or liability for any information, opinions, or commentary contained herein, or for any consequences of its use, will be accepted by the University, or by any person involved in the preparation of this report.

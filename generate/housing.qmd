@@ -119,7 +119,7 @@ Rental prices may have just started to see the peak in price rises that have bee
 ```
 [Data source: NSW FACS]{style="font-size: small;"}
 
-<iframe src="html_figs/rentalprices_last_quart.html" width="800" height="600">
+<iframe src="html_figs/rentalprices_last_halfyear.html" width="800" height="600">
 
 </iframe>
 
