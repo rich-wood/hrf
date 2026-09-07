@@ -1,7 +1,11 @@
 ```{=html}
 <style>
     h1, h2, h3, h4, h5, h6 {
-        color: darkblue;
+        color: dThe University of Newcastle's Institute for Regional Futures' Insight Dashboard tracks socio-economic conditions in the Hunter. The dashboard is based on the Hunter Research Foundation Centre's databank collected over 60 years, the most comprehensive collection for any region in Australia.
+
+This dashboard of economic updates is designed to give decision-makers in government, industry and the community the latest data on the Hunter's performance across key indicators. The dashboard draws upon national and regional data sources to deliver insights about the Hunter region. These updates will be provided throughout the year, in addition to the [Hunter Insight Series](https://www.newcastle.edu.au/research/centre/regional-futures/hunter-insight-series). This is the fifth release in this format.
+
+The dashboard is a snapshot of only some of the total data collected by the Institute for Regional Futures. For more information, please contact [irf\@newcastle.edu.au](irf@newcastle.edu.au).ue;
         text-align: center;
     }
     body {
@@ -79,14 +83,14 @@ The dashboard is a snapshot of just some of the total data collected by the Inst
 ## International and national conditions
 
 -   <b>National:</b> Economic growth, measured through Gross Domestic Product, showed an increase of +0.2% for the first quarter of 2025, capping off a 12 month increase of 1.3%.
--   <b>International:</b> A fall in exports (-0.8%) were partly offset by a similar fall in imports (-0.4%). 
--   <b>Household:</b> Price rises measured through the Consumer Price Index (CPI) slowed further, down to a 12-month CPI of +2.4%. 
+-   <b>International:</b> A fall in exports (-0.8%) was partly offset by a similar fall in imports (-0.4%). 
+-   <b>Household:</b> Price rises, as measured by the Consumer Price Index (CPI), slowed further, with the 12-month CPI at +2.4%. 
 
 ## Hunter conditions
 
--   <b>Hunter labour market (employment):</b> Employment in the Hunter region has fluctuated over the previous 12 months. 2,100 full-time jobs were added in the first quarter (to February 2025). Employment in manufacturing has seen the most significant sectoral decline over the last 6 and 12 months.
--   <b>Hunter labour market (unemployment):</b> The unemployment rate is at 4.3% in April 2025 (compared to 4.2% for NSW). The youth unemployment rate in the Hunter has dropped to 3.0%.
--   <b>Hunter housing market:</b> Prices in the Hunter are on the increase, with price rises of 5.4% on a median basis for sales in the Greater Newcastle area in the last 12 months of data. Rental prices are up 9% for the region.
+-   <b>Hunter labour market (employment):</b> Employment in the Hunter region has fluctuated over the previous 12 months. 2,100 full-time jobs were added in the first quarter (to February 2025). Manufacturing employment has seen the most significant sectoral decline over the past 6 and 12 months.
+-   <b>Hunter labour market (unemployment):</b> The unemployment rate is 4.3% in April 2025 (compared to 4.2% for NSW). The youth unemployment rate in the Hunter has dropped to 3.0%.
+-   <b>Hunter housing market:</b> Prices in the Hunter are increasing, with a 5.4% median price rise for sales in the Greater Newcastle area over the past 12 months. Rental prices are up by 9% in the region.
 
 ## Contents
 
@@ -123,12 +127,12 @@ The dashboard is a snapshot of just some of the total data collected by the Inst
 </iframe>
 [Data source: [Data source: ABS Australian National Accounts: National Income, Expenditure and Product.](https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/mar-2025)]{style="font-size: small;"}
 
-At the national level, Australian Bureau of Statistics (ABS) data shows a quarterly rise in Gross Domestic Product (GDP) of 0.2% for the first quarter of 2025, slightly down on the previous quarter's rise of 0.6% and giving a 12 month rise of 1.3% (chain volume measures). GDP per capita fell 0.4% driven by immigration over the previous 12 months. The [ABS Australian National Accounts: National Income, Expenditure and Product, June release](https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/mar-2024) highlight the following points:
+At the national level, Australian Bureau of Statistics (ABS) data shows a quarterly rise in Gross Domestic Product (GDP) of 0.2% for the first quarter of 2025, slightly down on the previous quarter's rise of 0.6% and giving a 12 month rise of 1.3% (chain volume measures). GDP per capita fell by 0.4% driven by immigration over the previous 12 months. The [ABS Australian National Accounts: National Income, Expenditure and Product, June release](https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/mar-2024) highlight the following points:
 
 - Household Consumption: Household consumption continued to grow, mainly due to increased expenditure on energy. Household saving to income ratio rose to 5.2%, a significant increase over the last 12 months. 
-- Government Expenditure: Government consumption was overall flat, with increased expenditure on defence offset declines in state and local government expenditure, as well as declines in spending on social benefit programs (Medicare and NDIS). 
+- Government Expenditure: Government consumption was overall flat, with increased expenditure on defence offsetting declines in state and local government expenditure, as well as declines in spending on social benefit programs (Medicare and NDIS). 
 - Public investment fell after rises in the latter half of 2024. This was offset by increases in private investment, mostly in housing and non-dwelling construction. 
-- Net Trade: Net trade detracted 0.1 percentage points from GDP growth, with a fall in exports (-0.8%) being partly offset by a similar fall in imports (-0.4%). A decrease in export of services of circa 3.0% contributed most to the decline.
+- Net Trade: Net trade detracted 0.1 percentage points from GDP growth, with a fall in exports (-0.8%) being partly offset by a similar fall in imports (-0.4%). A decrease of approximately 3.0% in service exports contributed most to the decline.
 - Mining profits were hit by price falls across coal and LNG due to global over supply. Non-mining industries, particularly manufacturing, services, and financial corporations led increases in profits across the nation.
 
 See [ABS for more info](https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/mar-2025).
@@ -220,7 +224,7 @@ Note that for the Hunter, employment statistics are collected at the Statistical
 [Data source: [ABS Labour Force, Australia, Detailed](https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/aug-2024)]{style="font-size: small;"}
 
 
-Unemployment in the Hunter region has mirrored the employment data, with cyclical fluctuations over the last 12 months. The unemployment rates is now at 4.3%, compared to 4.2% for New South Wales (NSW). Youth unemployment in the Hunter region in  contrast is down to 3.0%, below the NSW level of 4.7%. These rates compare to a notional figure of circa 4.5% for the 'non-accelerating inflation rate of unemployment' or [NAIRU](https://www.rba.gov.au/speeches/2023/sp-dg-2023-06-20.html). Unemployment rates far away from the NAIRU are expected to help fuel wages growth and inflation. Note that the values expressed here are with a 3-month moving average.
+Unemployment in the Hunter region has mirrored the employment data, with cyclical fluctuations over the last 12 months. The unemployment rate is now 4.3%, compared to 4.2% for New South Wales (NSW). Youth unemployment in the Hunter region in  contrast is down to 3.0%, below the NSW level of 4.7%. These rates compare to a notional figure of circa 4.5% for the 'non-accelerating inflation rate of unemployment' or [NAIRU](https://www.rba.gov.au/speeches/2023/sp-dg-2023-06-20.html). Unemployment rates far away from the NAIRU are expected to help fuel wages growth and inflation. Note that the values expressed here are with a 3-month moving average.
 
 
 <iframe src="html_figs/unemployment_hunter_bar12months.html" width="800" height="600">
@@ -306,7 +310,7 @@ Indexed
 
 [Data source: [NSW Govt Rent and Sales Report](https://dcj.nsw.gov.au/about-us/families-and-communities-statistics/housing-rent-and-sales/rent-and-sales-report.html). Data indexed to start 2009.]{style="font-size: small;"}
 
-In the 6 months to March 2025, all LGAs showed increases or stable rent prices.  All LGAs saw a 6 month increase of over 4% except Mid-Coast and Maitland. The Upper Hunter Shire showed the largest increase with a 11.2% increase over the 6 months to March 2025. In comparison, Greater Sydney was flat.
+In the 6 months to March 2025, all LGAs showed either increases or stable rent prices. All LGAs saw a 6-month increase of over 4%, except for Mid-Coast and Maitland. The Upper Hunter Shire showed the largest increase with a 11.2% increase over the 6 months to March 2025. In comparison, Greater Sydney was flat.
 
 <iframe src="html_figs/rentalprices_last_halfyear.html" width="800" height="600">
 
@@ -316,7 +320,7 @@ In the 6 months to March 2025, all LGAs showed increases or stable rent prices. 
 
 ## House prices to annual rent ratio
 
-The ratio of house prices to annual rent is generally continued to decline across the region (see figure below). However, the strengthening of house price increases has meant that this decline is not as uniform or as strong as late 2022 and early 2023. A decline implies that it is a more attractive time to invest in housing than previous years as rental prices have been increasing faster than house prices during the period. The figure below shows the ratio of house price for a median 3-bedroom house to the rental price. Internationally, a value of 20 is a common baseline, and Australia tracks well above this number (reflecting the relatively high price of housing purchases). The peak in house prices seen above in 2022 is also evident in the peak in the price to rent ratio (implying that the rents did not peak in the same way as house prices). 
+The ratio of house prices to annual rent has generally continued to decline across the region (see figure below). However, the strengthening of house price increases means that this decline is not as uniform or as strong as in late 2022 and early 2023. A decline implies that it is a more attractive time to invest in housing than in previous years, as rental prices have been increasing faster than house prices during this period. The figure below shows the ratio of house price for a median 3-bedroom house to the rental price. Internationally, a value of 20 is a common baseline, and Australia tracks well above this number (reflecting the relatively high price of housing purchases). The peak in house prices seen above in 2022 is also evident in the peak in the price-to-rent ratio, implying that rents did not peak in the same way as house prices. 
 
 <iframe src="html_figs/sales_rents_ratio.html" width="800" height="580">
 
@@ -335,7 +339,7 @@ Despite the acknowledged need for a significant increase in housing stock, there
 [Data source: [ABS Building Approvals](https://www.abs.gov.au/statistics/industry/building-and-construction/building-approvals-australia/aug-2024)]{style="font-size: small;"}
 
 
-The geographic spread of building approvals is reflected in the below charts. The figure shows the number of building approvals by type since 2016 for the whole of the Hunter on a cumulative basis. For housing, the dominance of approvals in the outer-middle regions of the Hunter is evident, with housing approvals concentrated in the Branxton, Thornton and Morriset areas. The urban areas in Newcastle and Lake Maquarie see the concentration of apartment approvals, with few new housing approvals. The mid-density housing (semi-detached, row and terrace houses) are spread over a combination of urban areas and the outer SA2s. In 2023, there was a rise in approvals in Newcastle SA2, bucking the trend of declining approvals across the region. Most of this was due to apartments.
+The geographic spread of building approvals is reflected in the below charts. The figure shows the cumulative number of building approvals by type since 2016 for the whole of the Hunter. For housing, the dominance of approvals in the outer-middle regions of the Hunter is evident, with housing approvals concentrated in the Branxton, Thornton and Morriset areas. The urban areas in Newcastle and Lake Macquarie see a concentration of apartment approvals, with few new housing approvals. The mid-density housing (semi-detached, row and terrace houses) are spread over a combination of urban areas and the outer SA2s. In 2023, there was a rise in approvals in Newcastle SA2, bucking the trend of declining approvals across the region. Most of this was due to apartments.
 
 ```{=html}
 
@@ -366,7 +370,7 @@ The geographic spread of building approvals is reflected in the below charts. Th
     }
 </script>
 ```
-The Institute for Regional Futures delved into the issues surrounding housing in the region at [Hunter Insight Series: Building a Healthy Housing Market](https://www.newcastle.edu.au/newsroom/featured/new-analysis-housing-need-significantly-underestimated2), held in October 2023. 
+The Institute for Regional Futures explored the issues surrounding housing in the region at [Hunter Insight Series: Building a Healthy Housing Market](https://www.newcastle.edu.au/newsroom/featured/new-analysis-housing-need-significantly-underestimated2), held in October 2023. 
 
 <p>
 <br>
@@ -379,9 +383,9 @@ As Australia transitions to a net-zero economy, there will be significant change
 
 In 2021, 48 Mt or 37% of NSW emissions were in the Hunter. This is despite having only 8% of the NSW population. Sixty-eight percent of emissions are due to electricity generation, however. Sixty-three percent of these emissions are due to consumption of electricity (so called scope 2 emissions) outside the region. Adjusting for these emissions, results in 27 Mt of emissions in the Hunter, still 21% of the state's emissions. 
 
-On a per-capita basis, emissions in the hunter are 61 t/capita, and adjusting for the exported electricity to other users outside the region, 34 t/capital. This is against a backdrop of an average Australian of 19 t/capita ([National Greenhouse Gas Inventory](https://www.dcceew.gov.au/climate-change/publications/national-greenhouse-gas-inventory-quarterly-update-march-2022)).
+On a per-capita basis, emissions in the Hunter are 61 t/capita, and, after adjusting for exported electricity to other users outside the region, 34 t/capita. This compares to an Australian average of 19 t/capita ([National Greenhouse Gas Inventory](https://www.dcceew.gov.au/climate-change/publications/national-greenhouse-gas-inventory-quarterly-update-march-2022)).
 
-Progress in emissions reductions in the region is being observed, particularly as some of the aging coal-fired power stations in the region are either being retired or reducing their capacity utilization. In 2021, Hunter emissions decreased by approximately 7%, primarily due to changes in electricity generation, with a notable decline in fugitive emissions from fuels as well.
+Progress in emissions reduction is being observed, particularly as some of the aging coal-fired power stations in the region are either being retired or reducing their capacity utilization. In 2021, Hunter emissions decreased by approximately 7%, primarily due to changes in electricity generation, with a notable decline in fugitive emissions from fuels as well.
 
 <iframe src="html_figs/hunter_emissions_progress.html" width="800" height="600">
 
@@ -398,11 +402,11 @@ A more detailed view of emissions by sector is provided below. In this view, for
 [Data source: [NSW Net Zero Emissions Dashboard](https://datasets.seed.nsw.gov.au/dataset/nsw-regional-and-local-greenhouse-gas-emissions-2016-2019)]{style="font-size: small;"}
 
 
-Scope 3 GHG Emissions: Scope 3 greenhouse gas emissions are those emissions related to economic activity besides direct fuel and electricity consumption. This accounting of emissions provides a background to additional opportunities to decarbonize for industry, yet are often difficult to realise because of measurement issues and the need to involve multiple stakeholders. At the Institute for Regional Futures, the Scope 3 emissions of industrial production in the Hunter have been estimated based on a unique combination of data from the [EXIOBASE](https://exiobase.org) global MRIO model, national IO tables and local IO data from REMPLAN.
+Scope 3 GHG Emissions: Scope 3 greenhouse gas emissions are those related to economic activity other than direct fuel and electricity consumption. This accounting of emissions provides a background to additional opportunities to decarbonize for industry, yet are often difficult to realise because of measurement issues and the need to involve multiple stakeholders. At the Institute for Regional Futures, the Scope 3 emissions of industrial production in the Hunter have been estimated based on a unique combination of data from the [EXIOBASE](https://exiobase.org) global MRIO model, national IO tables and local IO data from REMPLAN.
 
-The chart below shows greenhouse gas emissions by aggregated source and destination sectors in the Hunter region. Emission Sources are broken down by source sector in the colour: agriculture forestry and fishing, mining, manufacturing, electricity and other utilities, construction, services, and transport. Further detail is available upon request, with emissions broken down into supply-chains. The scope 3 emissions shown below exclude scope 1 and scope 2 emissions.
+The chart below shows greenhouse gas emissions by aggregated source and destination sectors in the Hunter region. Emission sources are broken down by sector and color: agriculture, forestry and fishing; mining; manufacturing; electricity and other utilities; construction; services; and transport. Further detail is available upon request, with emissions broken down into supply-chains. The scope 3 emissions shown below exclude scope 1 and scope 2 emissions.
 
-Manufacturing is the largest contributor to Scope 3 Emissions in the region. The manufacturing sector’s Scope 3 emissions are close to 15 Mt of CO2-equivalent (CO2-e). Aggregate emissions are visible in the chart below, but due to the broad nature of the sector, the aggregate emissions are spread over many sources. Some key contributors to the results are the scope 3 emissions from mining sources and from indirect electricity use due to non-ferrous metal manufacturing; agricultural emissions due to meat product manufacturing; emissions of cement and lime preparation for concrete manufacturing. The IRF is providing insight into organisational scope 3 emissions in the region. Get in touch below for more information.
+Manufacturing is the largest contributor to Scope 3 Emissions in the region. The manufacturing sector’s Scope 3 emissions are close to 15 Mt of CO2-equivalent (CO2-e). Aggregate emissions are visible in the chart below, but due to the broad nature of the sector, these emissions are spread over many sources. Some key contributors to the results are scope 3 emissions from mining sources and from indirect electricity use due to non-ferrous metal manufacturing; agricultural emissions from meat product manufacturing; and emissions from cement and lime preparation for concrete manufacturing. The IRF provides insight into organizational scope 3 emissions in the region. Contact us below for more information.
 
 <iframe src="html_figs/hunter_emissions_scope3.html" width="800" height="600">
 
